@@ -1,11 +1,38 @@
-$primary-color:#ecf0f1;
+// variables
 
+
+// list of colors
+$grey:#ccc;
+$white:#fff;
+$blue:#2c3e50;
+
+
+// list of fonts
+$font: 'Poppins', sans-serif;
+
+
+
+
+
+
+// custom style
 
 *{
   padding: 0;
   margin: 0;
 }
 body{
+  width: 100%;
   text-align: center;
-  background-color: $primary-color;
+  background-color: #ecf0f1;
+}
+.nav{
+  width: 100%;
+  .navbar{
+    width: 100%;
+    background-color: $white;
+  }
+  a{
+    float: right;
+  }
 }

@@ -3,7 +3,16 @@
   margin: 0; }
 
 body {
+  width: 100%;
   text-align: center;
   background-color: #ecf0f1; }
+
+.nav {
+  width: 100%; }
+  .nav .navbar {
+    width: 100%;
+    background-color: #fff; }
+  .nav a {
+    float: right; }
 
 /*# sourceMappingURL=style.css.map */
