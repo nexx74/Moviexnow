@@ -1,0 +1,7 @@
+markdown: rdiscount
+name: moviexnow
+description: Download Hd movies and tvshows for free
+author: moviexnow
+baseurl:
+url: http://moviexnow.com/
+permalink: pretty

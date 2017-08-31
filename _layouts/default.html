@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>{%if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+
+  <!-- Css files linked -->
+
+  <link rel="stylesheet" href="css/style.css">
+
+
+  <!-- Meta tags -->
+
+<meta name="title" content="{%if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+<meta name="description" content="{% if page.description%}{{page.description}}{% else%}{{site.description}}{% endif%}">
+<meta name="url" content="{% if page.url%}{{page.url}}{% else %}{{site.url}}{% endif %}">
+<meta name="image" content="{%if page.image %}{{ page.image }}{% else %}{{ site.image }}{% endif %}">
+
+<meta property="og:locale" content="en_US">
+<meta property="og:type" content="article">
+<meta property="og:title" content="{%if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+<meta property="og:url" content="{{ site.url }}{{ page.url }}">
+<meta property="og:image" content="{{ site.url }}/images/{{ page.image }}" />
+<meta property="og:site_name" content="{{site.title}}">
+<meta property="article:publisher" content="http://www.facebook.com/{{page.author}}" />
+<meta property="article:author" content="https://www.facebook.com/{{page.author}}" />
+<meta property="article:published_time" content="{{ page.date }}" />
+<meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:title" content="{%if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+<meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+<meta name="twitter:site" content="" />
+<meta name="twitter:creator" content="">
+<meta name="twitter:card" content="summary">
+</head>
+<body>
+{{content}}
+
+
+
+
+<!-- Javascript files linked -->
+<script src="js/main.js" charset="utf-8"></script>
+</body>
+</html>
