@@ -18,26 +18,51 @@ body {
     float: left; }
   .nav li {
     margin-left: 22px; }
+    .nav li:hover > .sub-menu {
+      display: block; }
   .nav a {
     padding: 0px 10px;
     float: left;
     color: #2c3e50;
     font-weight: 600; }
-  .nav .fa-home {
-    color: #2529d8; }
-  .nav .fa-google-wallet {
-    color: #febd17; }
-  .nav .fa-globe {
-    color: #622599; }
-  .nav .fa-video-camera {
-    color: #cd201f; }
-  .nav .fa-television {
-    color: #e50914; }
-  .nav .fa-eercast {
-    color: #204056; }
-  .nav .fa-imdb {
-    color: #f5de50; }
-  .nav .fa-search {
-    color: #146eb4; }
+
+.sub-menu {
+  display: none;
+  box-shadow: 10px 17px 20px 0px #ccc;
+  position: absolute;
+  top: 61px;
+  border-radius: 3px;
+  background-color: #fff; }
+  .sub-menu li {
+    list-style-type: none;
+    position: relative;
+    left: -20px; }
+  .sub-menu a {
+    text-decoration: none;
+    padding: 0px 50px 0px 10px; }
+
+.fa-home {
+  color: #2529d8; }
+
+.fa-google-wallet {
+  color: #febd17; }
+
+.fa-globe {
+  color: #622599; }
+
+.fa-video-camera {
+  color: #cd201f; }
+
+.fa-television {
+  color: #e50914; }
+
+.fa-eercast {
+  color: #204056; }
+
+.fa-imdb {
+  color: #f5de50; }
+
+.fa-search {
+  color: #146eb4; }
 
 /*# sourceMappingURL=style.css.map */
