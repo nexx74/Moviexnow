@@ -7,8 +7,11 @@
   <title>{%if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
 
   <!-- Css files linked -->
-
-  <link rel="stylesheet" href="css/style.css">
+ <link rel="stylesheet" href="css/normalize.css">
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css">
+ <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+ <link rel="stylesheet" href="css/font-awesome.min.css">
+ <link rel="stylesheet" href="css/style.css">
 
 
   <!-- Meta tags -->
@@ -37,12 +40,20 @@
 <meta name="twitter:card" content="summary">
 </head>
 <body>
+
+<div class="nav">
+  {% include nav.html %}
+</div>
+
 {{content}}
 
-
-
+<footer>
+  {% include footer.html %}
+</footer>
 
 <!-- Javascript files linked -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
 <script src="js/main.js" charset="utf-8"></script>
 </body>
 </html>
