@@ -23,5 +23,21 @@ body {
     float: left;
     color: #2c3e50;
     font-weight: 600; }
+  .nav .fa-home {
+    color: #2529d8; }
+  .nav .fa-google-wallet {
+    color: #febd17; }
+  .nav .fa-globe {
+    color: #622599; }
+  .nav .fa-video-camera {
+    color: #cd201f; }
+  .nav .fa-television {
+    color: #e50914; }
+  .nav .fa-eercast {
+    color: #204056; }
+  .nav .fa-imdb {
+    color: #f5de50; }
+  .nav .fa-search {
+    color: #146eb4; }
 
 /*# sourceMappingURL=style.css.map */
