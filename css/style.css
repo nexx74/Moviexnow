@@ -11,8 +11,16 @@ body {
   width: 100%; }
   .nav .navbar {
     width: 100%;
+    height: 60px;
     background-color: #fff; }
+  .nav span {
+    float: left; }
+  .nav li {
+    margin-left: 22px; }
   .nav a {
-    float: right; }
+    padding: 0px 10px;
+    float: left;
+    color: #2c3e50;
+    font-weight: 600; }
 
 /*# sourceMappingURL=style.css.map */
