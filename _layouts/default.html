@@ -14,7 +14,6 @@
  <link rel="stylesheet" href="css/style.css">
  <link rel="shortcut icon" href="assets/favicon.png">
 
-
   <!-- Meta tags -->
 
 <meta name="title" content="{%if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
@@ -42,18 +41,31 @@
 </head>
 <body>
 
+<!-- preloader -->
+<div class="overlay">
+<div class="loader"></div>
+</div>
+
+<div class="wrapper">
+
+<!-- nav -->
 <div class="nav">
   {% include nav.html %}
 </div>
 
+
 {{content}}
 
+
+<!-- footer -->
 <footer>
   {% include footer.html %}
 </footer>
 
+</div>
 <!-- Javascript files linked -->
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
 <script src="js/main.js" charset="utf-8"></script>
 </body>
