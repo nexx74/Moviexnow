@@ -77,4 +77,29 @@ body {
 .fa-search {
   color: #146eb4; }
 
+.top-header .image-container {
+  width: 100%;
+  height: 580px;
+  margin: 4px 8px; }
+.top-header img {
+  padding: 2px;
+  width: 100%;
+  height: 100%; }
+.top-header h3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 30% 35%;
+  color: #fff;
+  font-size: 25px;
+  font-family: "Poppins", sans-serif; }
+.top-header p {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #fff; }
+.top-header .imdb {
+  margin: 60% 40%;
+  padding: 18px 15px; }
+
 /*# sourceMappingURL=style.css.map */
