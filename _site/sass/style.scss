@@ -133,7 +133,22 @@ body{
     .detail-list{
      margin-top: 50%;
      .title{
-      padding: 20px 0px;
+      padding: 30px 0px;
+      font-size: 20px;
+      letter-spacing: 0.5px;
+      word-spacing: 1px;
+      font-weight: 600;
+     }
+     .imdb,
+     .genre,
+     {
+       font-size: 14px;
+     }
+     .description{
+       font-size: 15px;
+       list-style: 0.3px;
+       word-spacing: 1px;
+       padding: 5px;
      }
     }
 

@@ -1,6 +1,5 @@
-markdown: rdiscount
 name: moviexnow
-description: 
+description:
 author: moviexnow
 baseurl:
 url: http://moviexnow.com/
