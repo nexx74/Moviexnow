@@ -1,0 +1,8 @@
+---
+title: Death Note
+description: An intelligent high school student goes on a secret crusade to eliminate criminals from the world after discovering a notebook capable of killing anyone whose name is written into it.
+thumbnail: https://images-na.ssl-images-amazon.com/images/M/MV5BODkzMjhjYTQtYmQyOS00NmZlLTg3Y2UtYjkzN2JkNmRjY2FhXkEyXkFqcGdeQXVyNTM4MDQ5MDc@._V1_UY268_CR1,0,182,268_AL__QL50.jpg
+imdb: 9.0/10
+genre:  Animation, Crime, Drama
+category: Anime
+---
