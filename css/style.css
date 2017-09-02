@@ -94,10 +94,11 @@ body {
   color: #fff;
   background-color: rgba(0, 0, 0, 0.5); }
   .top-header .movie-details .detail-list {
-    margin-top: 50%; }
+    margin-top: 50%;
+    opacity: 0.9; }
     .top-header .movie-details .detail-list .title {
       padding: 30px 0px;
-      font-size: 20px;
+      font-size: 25px;
       letter-spacing: 0.5px;
       word-spacing: 1px;
       font-weight: 600; }
@@ -106,7 +107,7 @@ body {
       font-size: 14px; }
     .top-header .movie-details .detail-list .description {
       font-size: 15px;
-      list-style: 0.5px;
+      list-style: 0.3px;
       word-spacing: 1px;
       padding: 8px; }
 
