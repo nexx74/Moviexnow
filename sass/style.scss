@@ -126,7 +126,7 @@ body{
    position: absolute;
    top:0;
    left: 0;
-   margin: 30% 35%;
+   margin: 50% 35%;
    color: $white;
    font-size: 25px;
    font-family: $font;
@@ -137,10 +137,9 @@ body{
     height: 100%;
     top:6px;
     left: 10px;
-    border:$border;
     color: $white;
     .detail-list{
-     margin-top: 40%;
+     margin-top: 80%;
     }
   }
 

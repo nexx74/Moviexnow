@@ -90,7 +90,7 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  margin: 30% 35%;
+  margin: 50% 35%;
   color: #fff;
   font-size: 25px;
   font-family: "Poppins", sans-serif; }
@@ -100,9 +100,8 @@ body {
   height: 100%;
   top: 6px;
   left: 10px;
-  border: 1px solid black;
   color: #fff; }
   .top-header .movie-details .detail-list {
-    margin-top: 40%; }
+    margin-top: 80%; }
 
 /*# sourceMappingURL=style.css.map */
