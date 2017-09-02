@@ -110,4 +110,20 @@ body {
       word-spacing: 1px;
       padding: 8px; }
 
+.category-title h3 {
+  float: left; }
+
+.movie-cards {
+  border: 1px solid black;
+  margin-top: 60px; }
+  .movie-cards .movies {
+    border: 1px solid black;
+    margin: 30px 10px;
+    float: left;
+    width: 243px;
+    height: 300px; }
+    .movie-cards .movies img {
+      width: 100px;
+      height: 100px; }
+
 /*# sourceMappingURL=style.css.map */

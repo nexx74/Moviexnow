@@ -14,7 +14,7 @@ description: Download Hd movies and tvshows for free
       <a href="{{post.url}}"><div class="movie-details">
       <div class="detail-list">
       <h3 class="title">{{post.title}}</h3>
-      <p class="imdb">IMDB : {{post.imdb}}</p>
+      <p class="imdb">IMDB : {{post.imdb}}/10</p>
       <p class="genre">Genre : {{post.genre}}</p>
       <p class="description">{{post.description}}</p>
       </div>
@@ -26,6 +26,31 @@ description: Download Hd movies and tvshows for free
 </div>
 
 <!--================================== Movies ====================================-->
+<div class="category-title">
+<h3>Movies</h3>
+</div>
+<div class="movie-cards">
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-lg-12">
+      {% for post in site.categories.Movies limit:10%}
+      <div class="movies">
+        <figure>
+          <span>{{post.imdb}}</span>
+          <img src="{{post.thumbnail}}" alt="">
+        </figure>
+          <figcaption>
+          <h4>{{post.title}}</h4>
+          <p>{{post.genre}}</p>
+          </figcaption>
+      </div>
+     {% endfor %}
+    </div>
+  </div>
+</div>
+</div>
+
+
 
 <!--================================== Tv shows =================================-->
 
@@ -52,9 +77,14 @@ description: Download Hd movies and tvshows for free
 
 
 
-
-
-
+<!--
+categories
+{% for post in site.categories.Movies %}
+  {% if post.url %}
+      <a href="{{ post.url }}">{{ post.title }}</a>
+  {% endif %}
+{% endfor %}
+ -->
 
 
 

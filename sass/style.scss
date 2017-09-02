@@ -152,3 +152,28 @@ body{
     }
   }
 }
+
+// Movies
+.category-title{
+  h3{
+    float: left;
+  }
+}
+
+
+.movie-cards{
+   border: $border;
+   margin-top: 60px;
+
+  .movies{
+    border: $border;
+    margin: 30px 10px;
+    float: left;
+    width: 243px;
+    height: 300px;
+    img{
+      width: 100px;
+      height: 100px;
+    }
+  }
+}
