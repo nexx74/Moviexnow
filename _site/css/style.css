@@ -114,16 +114,16 @@ body {
 .category-title h3 {
   float: left; }
 
-.movie-cards {
+.cards {
   border: 1px solid black;
   margin-top: 60px; }
-  .movie-cards .movies {
+  .cards .cards-content {
     border: 1px solid black;
     margin: 30px 10px;
     float: left;
     width: 243px;
     height: 300px; }
-    .movie-cards .movies img {
+    .cards .cards-content img {
       width: 100px;
       height: 100px; }
 

@@ -29,12 +29,12 @@ description: Download Hd movies and tvshows for free
 <div class="category-title">
 <h3>Movies</h3>
 </div>
-<div class="movie-cards">
+<div class="cards">
 <div class="container-fluid">
   <div class="row">
     <div class="col-lg-12">
       {% for post in site.categories.Movies limit:10%}
-      <div class="movies">
+      <div class="cards-content">
         <figure>
           <span>{{post.imdb}}</span>
           <img src="{{post.thumbnail}}" alt="">
@@ -54,9 +54,56 @@ description: Download Hd movies and tvshows for free
 
 <!--================================== Tv shows =================================-->
 
+<div class="category-title">
+<h3>Tv Series</h3>
+</div>
+<div class="cards">
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-lg-12">
+      {% for post in site.categories.Tv-Series limit:10%}
+      <div class="cards-content">
+        <figure>
+          <span>{{post.imdb}}</span>
+          <img src="{{post.thumbnail}}" alt="">
+        </figure>
+          <figcaption>
+          <h4>{{post.title}}</h4>
+          <p>{{post.genre}}</p>
+          </figcaption>
+      </div>
+     {% endfor %}
+    </div>
+  </div>
+</div>
+</div>
+
 <!--================================== Anime ======================================-->
 
 
+<div class="category-title">
+<h3>Anime</h3>
+</div>
+<div class="cards">
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-lg-12">
+      {% for post in site.categories.Anime limit:10%}
+      <div class="cards-content">
+        <figure>
+          <span>{{post.imdb}}</span>
+          <img src="{{post.thumbnail}}" alt="">
+        </figure>
+          <figcaption>
+          <h4>{{post.title}}</h4>
+          <p>{{post.genre}}</p>
+          </figcaption>
+      </div>
+     {% endfor %}
+    </div>
+  </div>
+</div>
+</div>
 
 
 
