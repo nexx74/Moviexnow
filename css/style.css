@@ -80,7 +80,8 @@ body {
 .top-header .image-container {
   width: 100%;
   height: 580px;
-  margin: 4px 8px; }
+  margin: 4px 8px;
+  text-align: center; }
 .top-header img {
   padding: 2px;
   width: 100%;
@@ -93,13 +94,15 @@ body {
   color: #fff;
   font-size: 25px;
   font-family: "Poppins", sans-serif; }
-.top-header p {
+.top-header .movie-details {
   position: absolute;
-  top: 0;
-  left: 0;
+  width: 100%;
+  height: 100%;
+  top: 6px;
+  left: 10px;
+  border: 1px solid black;
   color: #fff; }
-.top-header .imdb {
-  margin: 60% 40%;
-  padding: 18px 15px; }
+  .top-header .movie-details .detail-list {
+    margin-top: 40%; }
 
 /*# sourceMappingURL=style.css.map */

@@ -10,9 +10,13 @@ description: Download Hd movies and tvshows for free
     <div class="image-container">
         <a href="{{post.url}}"><img src="{{post.thumbnail}}" alt=""></a>
       <h3>{{post.title}}</h3>
-      <p class="imdb">IMDB:{{post.imdb}}</p>
-      <p class="genre">Genre:{{post.genre}}</p>
+       <div class="movie-details">
+      <div class="detail-list">
+      <p class="imdb">IMDB : {{post.imdb}}</p>
+      <p class="genre">Genre : {{post.genre}}</p>
       <p class="description">{{post.description}}</p>
+      </div>
+      </div>
     </div>
     {% endfor %}
 </div>

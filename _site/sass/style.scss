@@ -115,6 +115,7 @@ body{
   width: 100%;
   height: 580px;
   margin: 4px 8px;
+  text-align: center;
   }
   img{
     padding: 2px;
@@ -130,15 +131,18 @@ body{
    font-size: 25px;
    font-family: $font;
   }
-  p{
+  .movie-details{
     position: absolute;
-    top:0;
-    left: 0;
+    width: 100%;
+    height: 100%;
+    top:6px;
+    left: 10px;
+    border:$border;
     color: $white;
+    .detail-list{
+     margin-top: 40%;
+    }
   }
-  .imdb{
-    margin: 60% 40%;
-    padding: 18px 15px;
-  }
+
 
 }
