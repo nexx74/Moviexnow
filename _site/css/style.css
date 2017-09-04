@@ -146,7 +146,8 @@ body {
   font-family: "Poppins", sans-serif;
   word-spacing: 1px;
   letter-spacing: 0.5px;
-  font-weight: 400; }
+  font-weight: 400;
+  text-transform: capitalize; }
 .cards p {
   float: left;
   font-size: 12px;
@@ -154,7 +155,8 @@ body {
   color: #3498db;
   word-spacing: 1px;
   letter-spacing: 0.5px;
-  font-weight: 400; }
+  font-weight: 400;
+  text-transform: capitalize; }
 
 .link a {
   margin-top: 20px;
