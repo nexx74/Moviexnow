@@ -131,6 +131,8 @@ body {
   height: 350px;
   box-shadow: 0px 5px 20px 10px #ecf0f1;
   border-radius: 4px; }
+  .cards img:hover {
+    box-shadow: none; }
 .cards span {
   padding: 5px 20px;
   position: relative;
