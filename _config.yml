@@ -1,6 +1,4 @@
 name: moviexnow
 description:
 author: moviexnow
-baseurl:
-url: http://moviexnow.com/
 permalink: pretty
