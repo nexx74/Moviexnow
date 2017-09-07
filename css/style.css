@@ -134,6 +134,7 @@ body {
   width: 100%;
   height: 350px;
   box-shadow: -8px 8px 20px 2px #ccc;
+  transition: all 300ms ease-in;
   border-radius: 4px; }
   .cards img:hover {
     box-shadow: none; }
@@ -209,9 +210,12 @@ body {
 .footer-credit {
   margin-top: 50px; }
   .footer-credit .footer-container .confess p {
-    padding: 10px;
-    letter-spacing: 0.5px;
-    word-spacing: 1px; }
+    padding: 20px;
+    letter-spacing: 0.6px;
+    word-spacing: 1px;
+    font-size: 14px;
+    line-height: 25px;
+    text-align: center; }
   .footer-credit .footer-container .confess span {
     font-size: 12px;
     padding: 0 10px; }
@@ -220,7 +224,7 @@ body {
   .footer-credit .footer-container .social-links li {
     font-size: 20px;
     display: inline-block;
-    margin: 50px 20px; }
+    margin: 30px 20px; }
   .footer-credit .footer-container .footer-links ul {
     list-style-type: none; }
   .footer-credit .footer-container .footer-links li {
@@ -234,7 +238,8 @@ body {
     letter-spacing: 0.5px;
     word-spacing: 1px; }
   .footer-credit .footer-container .copy-claim {
-    letter-spacing: 0.5px;
-    word-spacing: 1px; }
+    letter-spacing: 0.2px;
+    word-spacing: 1px;
+    font-weight: 600; }
 
 /*# sourceMappingURL=style.css.map */
