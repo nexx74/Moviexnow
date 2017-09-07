@@ -1,4 +1,5 @@
-name: moviexnow
-description:
-author: moviexnow
+markdown: kramdown
+name: MoviexNow
+description: watch and download movies, tv-series and anime in singl click in HD 720p 1080p.
+author: MoviexNow
 permalink: pretty
