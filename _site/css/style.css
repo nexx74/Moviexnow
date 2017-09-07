@@ -82,10 +82,13 @@ body {
   width: 100%;
   height: 580px;
   margin: 6px 0px;
-  text-align: center; }
+  text-align: center;
+  box-shadow: -4px 4px 20px 0px #ccc;
+  border-radius: 3px; }
 .top-header img {
   width: 100%;
-  height: 100%; }
+  height: 100%;
+  border-radius: 3px; }
 .top-header .movie-details {
   position: absolute;
   width: 100%;
@@ -93,7 +96,8 @@ body {
   top: 5.8px;
   left: 0;
   color: #fff;
-  background-color: rgba(0, 0, 0, 0.5); }
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 3px; }
   .top-header .movie-details .detail-list {
     margin-top: 50%;
     opacity: 0.9; }
@@ -165,5 +169,10 @@ body {
   padding: 20px; }
   .link a:hover {
     text-decoration: none; }
+
+.sub {
+  background-color: #27ae60;
+  width: 100%;
+  height: 200px; }
 
 /*# sourceMappingURL=style.css.map */
