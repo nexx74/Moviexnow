@@ -9,25 +9,24 @@ permalink: /movies.html
             Header
  ==================================-->
 
-<div class="top-header">
-  <div class="owl-carousel">
-    {% for post in site.categories.Movies limit:10%}
-    <div class="image-container">
-      <img src="{{post.thumbnail}}" alt="">
-      <a href="{{post.url}}"><div class="movie-details">
-      <div class="detail-list">
-      <h3 class="title">{{post.title}}</h3>
-      <p class="imdb">IMDB : {{post.imdb}}/10</p>
-      <p class="genre">Genre : {{post.genre}}</p>
-      <p class="description">{{post.description}}</p>
-      </div>
-      </div>
-      </a>
-    </div>
-    {% endfor %}
-</div>
-</div>
-
+ <div class="top-header">
+   <div class="owl-carousel">
+     {% for post in site.categories.Movies limit:10%}
+     <div class="image-container">
+       <img src="{{post.thumbnail}}" alt="">
+       <a href="{{post.url}}"><div class="movie-details">
+       <div class="detail-list">
+       <h3 class="title">{{post.title}}</h3>
+       <p class="imdb">IMDB : {{post.imdb}}/10</p>
+       <p class="genre">Genre : {{post.genre}}</p>
+       <p class="description">{{post.description}}</p>
+       </div>
+       </div>
+       </a>
+     </div>
+     {% endfor %}
+ </div>
+ </div>
 
 <!--
 ===========================================================================
