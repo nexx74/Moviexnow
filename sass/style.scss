@@ -273,3 +273,54 @@ p{
     }
   }
 }
+
+.footer-credit{
+  margin-top: 50px;
+   .footer-container{
+      .confess{
+        p{
+          padding: 10px;
+          letter-spacing: 0.5px;
+          word-spacing: 1px;
+        }
+        span{
+          font-size: 12px;
+          padding: 0 10px;
+        }
+      }
+      .social-links{
+        ul{
+          list-style-type: none;
+        }
+        li{
+          font-size: 20px;
+          display: inline-block;
+          margin: 50px 20px;
+        }
+      }
+      .footer-links{
+        ul{
+          list-style-type: none;
+        }
+        li{
+          display: inline-block;
+          margin: 20px 30px 0px 30px;
+          text-transform: capitalize;
+        }
+        a{
+          text-decoration: none;
+          font-size: 13px;
+          font-weight: 600;
+          letter-spacing: 0.5px;
+          word-spacing: 1px;
+        }
+      }
+      .copy-claim{
+        letter-spacing: 0.5px;
+        word-spacing: 1px;
+
+      }
+
+   }
+
+}
