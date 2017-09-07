@@ -228,8 +228,48 @@ body{
 
 // subscription
 
-.sub{
-  background-color:#27ae60;
+.newsletter{
+  background:linear-gradient(to top right, #00953e, #00C853);
   width: 100%;
-  height: 200px;
+  height: 300px;
+  margin-top: 120px;
+  color: $white;
+  box-shadow: 0px 0px 5px #ccc;
+.top-container{
+  margin-top: 50px;
+  margin-bottom: 30px;
+  .sub{
+   font-size: 38px;
+   margin: 0 50px;
+ }
+ .plus{
+   font-size: 10px;
+   position: relative;
+   top: -5px;
+ }
+}
+h3{
+  font-size: 20px;
+  letter-spacing: 0.5px;
+  word-spacing: 1px;
+}
+p{
+  letter-spacing: 0.5px;
+  word-spacing: 1px;
+}
+.input-group{
+    box-shadow: 1px 11px 20px 0px #000;
+}
+  form{
+    margin: 0 auto;
+    text-align: center;
+     .input-group{
+      margin: 20px auto;
+      width: 600px !important;
+      input,
+      button{
+        border: none;
+      }
+    }
+  }
 }
