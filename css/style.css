@@ -261,4 +261,10 @@ body {
 .video-js button {
   margin: 19% 47%; }
 
+.details {
+  border: 1px solid black; }
+
+.option {
+  border: 1px solid black; }
+
 /*# sourceMappingURL=style.css.map */
