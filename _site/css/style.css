@@ -261,6 +261,9 @@ body {
 .video-js button {
   margin: 19% 47%; }
 
+.addthis_inline_share_toolbox {
+  margin: 20px auto; }
+
 .details {
   border: 1px solid black; }
 
