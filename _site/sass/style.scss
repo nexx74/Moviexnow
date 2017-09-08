@@ -352,13 +352,56 @@ margin: 19% 47%;
 .addthis_inline_share_toolbox{
   margin: 20px auto;
 }
-//container-1
 
-.details{
+
+//movie-complete-details container
+
+.movie-complete-details{
   border: $border;
+
+      .details{
+        margin-top: 100px;
+
+        img{
+          width: 250px;
+          height: 420px;
+          border-radius: 3px;
+          float: left;
+
+        }
+        .extra-detail-container,
+        .star,
+        h1{
+          text-align: left;
+          margin-top: 20px;
+          padding-left: 10px;
+        }
+        .star{
+            span{
+              color:#f1c40f;
+            }
+        }
+        p{
+          font-size: 14px;
+          letter-spacing: 0.5px;
+          word-spacing: 1px;
+          line-height: 22px;
+        }
+
+      }
 
 }
+
+
+
+
+
+
+
+// option-container
+
 .option{
   border: $border;
-
+  margin-top: 100px;
+  height: 500px;
 }
