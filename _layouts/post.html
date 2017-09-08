@@ -43,8 +43,9 @@ layout: default
            <h2>{{page.category}}</h2>
            <h1>{{page.title}}</h1>
            <div class="star">
-             <span></span>
+             <span><i class="fa fa-star" aria-hidden="true"></i></span>
              <p>{{page.imdb}}/10</p>
+             <p>{{page.duration}}</p>
            </div>
            <div class="extra-detail-container">
              <p>Directors : {{page.director}}</p>
@@ -54,6 +55,9 @@ layout: default
              <p>{{page.description}}</p>
              <p>{{page.genre}}</p>
            </div>
+         </div>
+         <div class="trailer">
+           <iframe width="100%" height="315" src="https://www.youtube.com/embed/{{page.trailer}}?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
          </div>
         </div>
       </div>
