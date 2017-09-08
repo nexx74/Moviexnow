@@ -34,7 +34,9 @@ comments: true
     <div class="row">
       <div class="col-lg-8">
 
-        <!-- container-1 -->
+        <!--==============================================================
+                                  container-1
+       ====================================================================-->
             <div class="details">
            <div class="row">
              <div class="col-lg-4">
@@ -55,6 +57,11 @@ comments: true
              </div>
            </div>
 
+
+           <!--============================================================================
+                                          Synopsis
+           =============================================================================-->
+
             <div class="row">
               <div class="col-lg-12">
                 <div class="synopsis">
@@ -63,12 +70,41 @@ comments: true
                 </div>
               </div>
             </div>
+
+
+            <!--============================================================================
+                                                Trailer
+            =============================================================================-->
+
             <div class="trailer">
            <iframe width="100%" height="315" src="https://www.youtube.com/embed/{{page.trailer}}?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
           </div>
-          </div>
 
-      </div>
+
+
+      <!--==================================================================
+                                 commment box
+    ========================================================================-->
+
+          <div class="comment-box">
+          <div id="disqus_thread"></div>
+          <script>
+          (function() { // DON'T EDIT BELOW THIS LINE
+          var d = document, s = d.createElement('script');
+          s.src = 'https://http-moviexnow-com.disqus.com/embed.js';
+          s.setAttribute('data-timestamp', +new Date());
+          (d.head || d.body).appendChild(s);
+          })();
+          </script>
+          <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+          </div>
+          </div>
+         </div>
+
+
+      <!--=================================================================
+                       Download and Stream Option Panel
+    =========================================================================-->
       <div class="col-lg-4">
 
          <!-- container-1 -->
@@ -76,36 +112,7 @@ comments: true
         <div class="option">
         <p>this is option container</p>
         </div>
-      </div>
-
-
-
 
     </div>
-  </div>
-  <div class="comment-box">
-  {% if page.comments %}
-  <div id="disqus_thread"></div>
-  <script>
-
-  /**
-  *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-  *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
-  /*
-  var disqus_config = function () {
-  this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
-  this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-  };
-  */
-  (function() { // DON'T EDIT BELOW THIS LINE
-  var d = document, s = d.createElement('script');
-  s.src = 'https://http-moviexnow-com.disqus.com/embed.js';
-  s.setAttribute('data-timestamp', +new Date());
-  (d.head || d.body).appendChild(s);
-  })();
-  </script>
-  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-    
-  {% endif %}
   </div>
 </div>

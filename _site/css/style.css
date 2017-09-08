@@ -294,6 +294,8 @@ body {
     line-height: 22px; }
   .movie-complete-details .details .trailer {
     margin-top: 20px; }
+  .movie-complete-details .details .comment-box {
+    margin-top: 50px; }
 
 .option {
   border: 1px solid black;
