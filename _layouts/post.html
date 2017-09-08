@@ -36,7 +36,19 @@ layout: default
         <!-- container-1 -->
 
         <div class="details">
-        <p>this is movie detail container</p>
+         <div class="image-container">
+           <img src="{{page.thumbnail}}" alt="">
+         </div>
+         <div class="post-details">
+           <h2>{{page.category}}</h2>
+           <h1>{{page.title}}</h1>
+           <div class="star">
+             <span></span>
+           </div>
+           <div class="extra-detail-container">
+             <p>Director {{page.director}}</p>
+           </div>
+         </div>
         </div>
       </div>
       <div class="col-lg-4">
