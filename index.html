@@ -41,7 +41,7 @@ description: watch and download movies, tv-series and anime in singl click in HD
 <div class="container-fluid">
   <div class="row">
     <div class="col-lg-12">
-      {% for post in site.categories.Movies limit:20%}
+      {% for post in site.categories.Movies limit:10%}
       <div class="cards-content">
         <figure>
           <span>{{post.imdb}}</span>
@@ -78,7 +78,7 @@ description: watch and download movies, tv-series and anime in singl click in HD
 <div class="container-fluid">
   <div class="row">
     <div class="col-lg-12">
-      {% for post in site.categories.Tv-Series limit:20%}
+      {% for post in site.categories.Tv-Series limit:10%}
       <div class="cards-content">
         <figure>
           <span>{{post.imdb}}</span>
@@ -113,7 +113,7 @@ description: watch and download movies, tv-series and anime in singl click in HD
 <div class="container-fluid">
   <div class="row">
     <div class="col-lg-12">
-      {% for post in site.categories.Anime limit:20%}
+      {% for post in site.categories.Anime limit:10%}
       <div class="cards-content">
           <span>{{post.imdb}}</span>
         <figure>

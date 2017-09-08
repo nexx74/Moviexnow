@@ -43,7 +43,7 @@ permalink: /anime.html
 <div class="container-fluid">
   <div class="row">
     <div class="col-lg-12">
-      {% for post in site.categories.Anime %}
+      {% for post in site.categories.Anime limit:20%}
       <div class="cards-content">
           <span>{{post.imdb}}</span>
         <figure>
