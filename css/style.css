@@ -8,31 +8,6 @@ body {
   background-color: #fafafa;
   overflow-x: hidden; }
 
-.overlay {
-  width: 100%;
-  height: 100%;
-  background-color: #f7f7f7;
-  position: fixed;
-  top: 0;
-  left: 0; }
-
-.loader-container {
-  width: 60px;
-  margin: 20% auto; }
-
-.loader {
-  width: 60px;
-  height: 60px;
-  border: 2px solid #fff;
-  border-radius: 100%;
-  border-top: 3px solid #2980b9;
-  animation: spin 1s infinite linear; }
-
-@keyframes spin {
-  from {
-    transform: rotate(0deg); }
-  to {
-    transform: rotate(360deg); } }
 .nav {
   width: 100%; }
   .nav .navbar-brand {
