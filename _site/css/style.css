@@ -262,28 +262,38 @@ body {
 .addthis_inline_share_toolbox {
   margin: 20px auto; }
 
-.movie-complete-details {
-  border: 1px solid black; }
-  .movie-complete-details .details {
-    margin-top: 100px; }
-    .movie-complete-details .details img {
-      width: 250px;
-      height: 420px;
-      border-radius: 3px;
-      float: left; }
-    .movie-complete-details .details .extra-detail-container,
-    .movie-complete-details .details .star,
-    .movie-complete-details .details h1 {
-      text-align: left;
-      margin-top: 20px;
-      padding-left: 10px; }
-    .movie-complete-details .details .star span {
-      color: #f1c40f; }
-    .movie-complete-details .details p {
-      font-size: 14px;
-      letter-spacing: 0.5px;
-      word-spacing: 1px;
-      line-height: 22px; }
+.movie-complete-details .details {
+  margin-top: 100px; }
+  .movie-complete-details .details img {
+    width: 250px;
+    height: 420px;
+    border-radius: 3px;
+    float: left; }
+  .movie-complete-details .details .extra-detail-container,
+  .movie-complete-details .details .star,
+  .movie-complete-details .details h1 {
+    text-align: left;
+    margin-top: 20px;
+    padding-left: 10px; }
+  .movie-complete-details .details h2 {
+    text-align: left;
+    margin-top: 50px;
+    font-size: 28px; }
+  .movie-complete-details .details .star span {
+    color: #f1c40f; }
+  .movie-complete-details .details p {
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    word-spacing: 1px;
+    line-height: 22px; }
+  .movie-complete-details .details .synopsis p {
+    text-align: left;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    word-spacing: 1px;
+    line-height: 22px; }
+  .movie-complete-details .details .trailer {
+    margin-top: 20px; }
 
 .option {
   border: 1px solid black;
