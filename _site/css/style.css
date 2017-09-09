@@ -233,6 +233,9 @@ body {
 .video-js button {
   margin: 19% 47%; }
 
+.vjs-modal-dialog .vjs-modal-dialog-content {
+  padding-top: 70px; }
+
 .addthis_inline_share_toolbox {
   margin: 20px auto; }
 
