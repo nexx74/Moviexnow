@@ -53,42 +53,44 @@ body {
 .fa-search {
   color: #146eb4; }
 
-.top-header .image-container {
-  width: 100%;
-  height: 580px;
-  margin: 6px 0px;
-  text-align: center;
-  border-radius: 3px; }
-.top-header img {
-  width: 100%;
-  height: 100%;
-  border-radius: 3px; }
-.top-header .movie-details {
-  position: absolute;
-  width: 100%;
-  height: 98%;
-  top: 5.8px;
-  left: 0;
-  color: #fff;
-  background-color: rgba(0, 0, 0, 0.5);
-  border-radius: 3px; }
-  .top-header .movie-details .detail-list {
-    margin-top: 50%;
-    opacity: 0.9; }
-    .top-header .movie-details .detail-list .title {
-      padding: 30px 0px;
-      font-size: 25px;
-      letter-spacing: 0.5px;
-      word-spacing: 1px;
-      font-weight: 600; }
-    .top-header .movie-details .detail-list .imdb,
-    .top-header .movie-details .detail-list .genre {
-      font-size: 14px; }
-    .top-header .movie-details .detail-list .description {
-      font-size: 15px;
-      list-style: 0.3px;
-      word-spacing: 1px;
-      padding: 8px; }
+.top-header {
+  margin-top: 56px; }
+  .top-header .image-container {
+    width: 100%;
+    height: 580px;
+    margin: 6px 0px;
+    text-align: center;
+    border-radius: 3px; }
+  .top-header img {
+    width: 100%;
+    height: 100%;
+    border-radius: 3px; }
+  .top-header .movie-details {
+    position: absolute;
+    width: 100%;
+    height: 98%;
+    top: 5.8px;
+    left: 0;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 3px; }
+    .top-header .movie-details .detail-list {
+      margin-top: 50%;
+      opacity: 0.9; }
+      .top-header .movie-details .detail-list .title {
+        padding: 30px 0px;
+        font-size: 25px;
+        letter-spacing: 0.5px;
+        word-spacing: 1px;
+        font-weight: 600; }
+      .top-header .movie-details .detail-list .imdb,
+      .top-header .movie-details .detail-list .genre {
+        font-size: 14px; }
+      .top-header .movie-details .detail-list .description {
+        font-size: 15px;
+        list-style: 0.3px;
+        word-spacing: 1px;
+        padding: 8px; }
 
 .category-title {
   margin-top: 80px; }
@@ -108,7 +110,6 @@ body {
   width: 100%;
   height: 350px;
   box-shadow: -8px 8px 20px 2px #ccc;
-  transition: all 300ms ease-in;
   border-radius: 4px; }
   .cards img:hover {
     box-shadow: none; }
@@ -224,14 +225,15 @@ body {
     height: 100%; }
 
 .video-js {
+  margin-top: 56px;
   width: 75%;
-  height: 586px; }
+  height: 590px; }
 
 .vjs-poster {
   width: 100%; }
 
 .video-js button {
-  margin: 19% 47%; }
+  margin: 20% 45%; }
 
 .vjs-modal-dialog .vjs-modal-dialog-content {
   padding: 80px 24px; }
@@ -278,7 +280,10 @@ body {
   margin-top: 100px;
   height: 600px;
   width: 300px;
-  margin-left: 15%; }
+  margin-left: 20%; }
+
+#ad0 {
+  height: 250px; }
 
 .ad {
   padding-top: 10px; }
