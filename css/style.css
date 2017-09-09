@@ -249,7 +249,7 @@ body {
 .movie-complete-details .details {
   margin-top: 100px; }
   .movie-complete-details .details #thumbnail img {
-    width: 250px;
+    width: 300px;
     height: 420px;
     border-radius: 3px;
     float: left; }
