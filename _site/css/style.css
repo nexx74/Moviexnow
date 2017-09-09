@@ -271,9 +271,11 @@ body {
   .movie-complete-details .details .comment-box {
     margin-top: 50px; }
 
-.option {
+.ads {
   border: 1px solid black;
   margin-top: 100px;
-  height: 500px; }
+  height: 600px;
+  width: 300px;
+  margin-left: 15%; }
 
 /*# sourceMappingURL=style.css.map */
