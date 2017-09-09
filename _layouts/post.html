@@ -3,9 +3,7 @@ layout: default
 comments: true
 ---
 
-
-
-<!--my video-player-->
+  <!--my video-player-->
 <div class="video-player">
 <video id="my-video" class="video-js" controls preload="auto"
  poster="{{page.thumbnail}}" data-setup={}>
@@ -30,7 +28,9 @@ comments: true
             <div class="details">
            <div class="row">
              <div class="col-lg-4">
+              <div id="thumbnail">
                 <img src="{{page.thumbnail}}" alt="{{post.title}}">
+              </div>
              </div>
              <div class="col-lg-8">
                <h1>{{page.title}}</h1>
@@ -62,6 +62,13 @@ comments: true
            <iframe width="100%" height="430" src="https://www.youtube.com/embed/{{page.trailer}}?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
           </div>
 
+        <!--Advertisement Area-->
+          <div class="ad" id="ad">
+            <a href="http://www.socialpilot.co?refer=IBHD2XMS"  title="Socialpilot" target="_blank">
+            <img src="http://affiliate.socialpilot.co/themes/socialpilot/assets/img/affiliate/socialpilot_720x90.png" alt="banner" title="social banner"/>
+            </a>
+          </div>
+
       <!--commment box-->
           <div class="comment-box">
           <div id="disqus_thread"></div>
@@ -82,6 +89,10 @@ comments: true
       <div class="col-lg-4">
 
          <!-- container-2 -->
+        <div class="ads" id="ad0">
+
+        </div>
+
         <div class="ads" id="ad1">
         <a href="//www.semrush.com/sem/?ref=0277578085&refer_source=&utm_source=berush&utm_medium=promo&utm_campaign=banner" title="SEMrush" target="_blank"><img src="//www.berush.com/static/berush/banners/orange/300x600/300x600_en.png" alt="SEMrush" /></a>
         </div>

@@ -224,7 +224,7 @@ body {
     height: 100%; }
 
 .video-js {
-  width: 100%;
+  width: 75%;
   height: 586px; }
 
 .vjs-poster {
@@ -241,7 +241,7 @@ body {
 
 .movie-complete-details .details {
   margin-top: 100px; }
-  .movie-complete-details .details img {
+  .movie-complete-details .details #thumbnail img {
     width: 250px;
     height: 420px;
     border-radius: 3px;
@@ -279,5 +279,11 @@ body {
   height: 600px;
   width: 300px;
   margin-left: 15%; }
+
+.ad {
+  padding-top: 10px; }
+  .ad #ad img {
+    width: 720px;
+    height: 90px; }
 
 /*# sourceMappingURL=style.css.map */
