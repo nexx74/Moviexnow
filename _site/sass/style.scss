@@ -305,21 +305,39 @@ p{
 
 // video player
 
+.video-container{
+  .video-player{
 
-  .video-js {
-      margin-top:56px;
-      width: 75%;
-      height: 590px;
+    .video-js {
+        margin-top:56px;
+        width: 75%;
+        height: 590px;
+    }
+    .vjs-poster{
+      width: 100%;
+    }
+    .video-js button{
+    margin: 20% 45%;
+    }
+    .vjs-modal-dialog .vjs-modal-dialog-content{
+        padding: 80px 24px;
+    }
   }
-  .vjs-poster{
-    width: 100%;
+
+
+  //server list
+
+  .server-list{
+    margin-top: 56px;
+    border:2px solid red;
+    width: 25%;
+    height: 590px;
+    position: absolute;
+    top: 0;
+    left: 75%;
   }
-  .video-js button{
-  margin: 20% 45%;
-  }
-  .vjs-modal-dialog .vjs-modal-dialog-content{
-      padding: 80px 24px;
-  }
+}
+
 
 
 //share button

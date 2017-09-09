@@ -224,19 +224,24 @@ body {
     width: 100%;
     height: 100%; }
 
-.video-js {
+.video-container .video-player .video-js {
   margin-top: 56px;
   width: 75%;
   height: 590px; }
-
-.vjs-poster {
+.video-container .video-player .vjs-poster {
   width: 100%; }
-
-.video-js button {
+.video-container .video-player .video-js button {
   margin: 20% 45%; }
-
-.vjs-modal-dialog .vjs-modal-dialog-content {
+.video-container .video-player .vjs-modal-dialog .vjs-modal-dialog-content {
   padding: 80px 24px; }
+.video-container .server-list {
+  margin-top: 56px;
+  border: 2px solid red;
+  width: 25%;
+  height: 590px;
+  position: absolute;
+  top: 0;
+  left: 75%; }
 
 .addthis_inline_share_toolbox {
   margin: 20px auto; }
