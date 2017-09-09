@@ -9,7 +9,7 @@ permalink: /tv-series.html
   <div class="owl-carousel">
     {% for post in site.categories.Tv-Series limit:10%}
     <div class="image-container">
-      <img src="{{post.thumbnail}}" alt="">
+      <img src="{{post.thumbnail}}" alt="{{post.title}}">
       <a href="{{post.url}}"><div class="movie-details">
       <div class="detail-list">
       <h3 class="title">{{post.title}}</h3>
@@ -40,7 +40,7 @@ permalink: /tv-series.html
       <div class="cards-content">
         <figure>
           <span>{{post.imdb}}</span>
-        <a href="{{post.url}}"><img src="{{post.thumbnail}}" alt=""></a>
+        <a href="{{post.url}}"><img src="{{post.thumbnail}}" alt="{{post.title}}"></a>
         </figure>
           <figcaption>
           <h4>{{post.title}}</h4>
