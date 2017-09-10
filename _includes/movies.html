@@ -7,15 +7,18 @@
         <th>Server</th>
         <th>Stream</th>
         <th>Download</th>
+        <th>Quality</th>
       </div>
     </tr>
   </thead>
   <tbody>
 
     <!-- First-Row -->
+    {{if page.index1 == 1 }}
     <tr>
-      <th scope="row">1</th>
+      <th scope="row">{{page.index1}}</th>
       <td><i class="fa fa-server" aria-hidden="true"></i> server 1</td>
+      <td>{{page.quality1}}</td>
       <td>
         <div class="options">
           <a href="{{page.server1}}"><span><i class="fa fa-steam" aria-hidden="true"></i></span> stream</a>
@@ -32,10 +35,11 @@
 
 
     <!-- Second-Row -->
-    {% if page.index == "2" %}
+    {% if page.index2 == 2 %}
     <tr>
-      <th scope="row">2</th>
+      <th scope="row">{{page.index2}}</th>
       <td><i class="fa fa-server" aria-hidden="true"></i> server 2</td>
+       <td>{{page.quality2}}</td>
       <td>
         <div class="options">
           <a href="{{page.server2}}"><span><i class="fa fa-steam" aria-hidden="true"></i></span> stream</a>
@@ -50,10 +54,11 @@
     {% endif %}
 
 <!-- Third-Row -->
-{% if page.index == "3" %}
+{% if page.index3 == 3 %}
     <tr>
-      <th scope="row">3</th>
+      <th scope="row">{{page.index3}}</th>
       <td><i class="fa fa-server" aria-hidden="true"></i> server 3</td>
+       <td>{{page.quality3}}</td>
       <td>
         <div class="options">
           <a href="{{page.server3}}"><span><i class="fa fa-steam" aria-hidden="true"></i></span> stream</a>
@@ -69,10 +74,11 @@
 
 
     <!-- Fourth-Row -->
-    {% if page.index == "4" %}
+    {% if page.index4 == 4 %}
     <tr>
-      <th scope="row">4</th>
+      <th scope="row">{{page.index4}}</th>
       <td><i class="fa fa-server" aria-hidden="true"></i> server 4</td>
+       <td>{{page.quality4}}</td>
       <td>
         <div class="options">
           <a href="{{page.server4}}"><span><i class="fa fa-steam" aria-hidden="true"></i></span> stream</a>
@@ -88,10 +94,11 @@
 
 
 <!-- Fifth-Row -->
-{% if page.index == "5" %}
+{% if page.index5 == 5 %}
     <tr>
-      <th scope="row">5</th>
+      <th scope="row">{{page.index5}}</th>
       <td><i class="fa fa-server" aria-hidden="true"></i> server 5</td>
+       <td>{{page.quality5}}</td>
       <td>
         <div class="options">
           <a href="{{page.server5}}"><span><i class="fa fa-steam" aria-hidden="true"></i></span> stream</a>
