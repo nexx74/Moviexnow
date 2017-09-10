@@ -20,3 +20,18 @@ $('.owl-carousel').owlCarousel({
 
     }
 })
+
+
+// server-list
+
+
+// select serverTitle
+var serverTitle =document.querySelector('#top').innerHTML;
+
+alert(serverTitle);
+if (serverTitle === "Movies") {
+    $("#title").append("choose servers");
+}
+else {
+   $("#title").append("choose episodes");
+}

@@ -242,6 +242,8 @@ body {
   position: absolute;
   top: 0;
   left: 75%; }
+.video-container #top {
+  display: none; }
 
 .addthis_inline_share_toolbox {
   margin: 20px auto; }
