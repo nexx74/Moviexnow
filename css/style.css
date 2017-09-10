@@ -224,34 +224,22 @@ body {
     width: 100%;
     height: 100%; }
 
-.video-container .video-player .video-js {
+.video-js {
   margin-top: 56px;
-  width: 75%;
+  width: 100%;
   height: 590px; }
-.video-container .video-player .vjs-poster {
+
+.vjs-poster {
   width: 100%; }
-.video-container .video-player .video-js button {
+
+.video-js button {
   margin: 20% 45%; }
-.video-container .video-player .vjs-modal-dialog .vjs-modal-dialog-content {
+
+.vjs-modal-dialog .vjs-modal-dialog-content {
   padding: 80px 24px; }
-.video-container .server-list {
-  margin-top: 56px;
-  border: 2px solid red;
-  width: 25%;
-  height: 590px;
-  position: absolute;
-  top: 0;
-  left: 75%; }
-.video-container #top {
-  display: none; }
-.video-container #movies-server,
-.video-container #shows-server {
-  display: none; }
-.video-container .ser {
-  display: none; }
 
 .addthis_inline_share_toolbox {
-  margin: 20px auto; }
+  padding: 10px; }
 
 .movie-complete-details .details {
   margin-top: 100px; }

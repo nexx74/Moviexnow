@@ -305,12 +305,9 @@ p{
 
 // video player
 
-.video-container{
-  .video-player{
-
     .video-js {
-        margin-top:56px;
-        width: 75%;
+        margin-top: 56px;
+        width: 100%;
         height: 590px;
     }
     .vjs-poster{
@@ -322,37 +319,10 @@ p{
     .vjs-modal-dialog .vjs-modal-dialog-content{
         padding: 80px 24px;
     }
-  }
-
-
-  //server list
-
-  .server-list{
-    margin-top: 56px;
-    border:2px solid red;
-    width: 25%;
-    height: 590px;
-    position: absolute;
-    top: 0;
-    left: 75%;
-  }
-  #top{
-    display: none;
-  }
-  #movies-server,
-  #shows-server{
-    display: none;
-  }
-  .ser{
-    display: none;
-  }
-}
-
-
 
 //share button
 .addthis_inline_share_toolbox{
-  margin: 20px auto;
+  padding: 10px;
 }
 
 
