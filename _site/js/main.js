@@ -20,3 +20,12 @@ $('.owl-carousel').owlCarousel({
 
     }
 })
+
+var downloadContainerTitle =document.querySelector('.page').innerHTML;
+
+    if (downloadContainerTitle === "Movies") {
+      $(".movie-table").show();
+    }
+    else {
+      $(".shows-table").show();
+    }

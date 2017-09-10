@@ -225,7 +225,6 @@ body {
     height: 100%; }
 
 .video-js {
-  margin-top: 56px;
   width: 100%;
   height: 590px; }
 
@@ -236,7 +235,19 @@ body {
   margin: 20% 45%; }
 
 .vjs-modal-dialog .vjs-modal-dialog-content {
-  padding: 60px 24px; }
+  padding: 80px 24px; }
+
+.download-container .page,
+.download-container .movie-table,
+.download-container .shows-table {
+  display: none;
+  margin-top: 50px; }
+
+th {
+  text-align: center; }
+
+.options a {
+  text-decoration: none; }
 
 .addthis_inline_share_toolbox {
   padding-top: 15px; }
