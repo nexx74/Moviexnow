@@ -244,6 +244,9 @@ body {
   left: 75%; }
 .video-container #top {
   display: none; }
+.video-container #movies-server,
+.video-container #shows-server {
+  display: none; }
 
 .addthis_inline_share_toolbox {
   margin: 20px auto; }
