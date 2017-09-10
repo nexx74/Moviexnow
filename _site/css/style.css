@@ -247,6 +247,8 @@ body {
 .video-container #movies-server,
 .video-container #shows-server {
   display: none; }
+.video-container .ser {
+  display: none; }
 
 .addthis_inline_share_toolbox {
   margin: 20px auto; }
