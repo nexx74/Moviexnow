@@ -291,10 +291,8 @@ th {
   width: 300px;
   margin-left: 20%; }
 
-#ad0 {
+#ad0,
+#ad1 {
   height: 250px; }
-
-.ad {
-  padding-top: 10px; }
 
 /*# sourceMappingURL=style.css.map */
