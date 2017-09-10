@@ -237,10 +237,7 @@ body {
 .vjs-modal-dialog .vjs-modal-dialog-content {
   padding: 80px 24px; }
 
-.download-container .page,
-.download-container .movie-table,
-.download-container .shows-table {
-  display: none;
+.table {
   margin-top: 50px; }
 
 th {

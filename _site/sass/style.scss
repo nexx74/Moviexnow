@@ -322,13 +322,8 @@ p{
 
 //download-container
 
-.download-container{
-      .page,
-      .movie-table,
-      .shows-table{
-        display: none;
-        margin-top: 50px;
-      }
+.table{
+  margin-top: 50px;
 }
 th {
     text-align: center;
@@ -336,6 +331,8 @@ th {
 .options a{
   text-decoration: none;
 }
+
+
 
 
 

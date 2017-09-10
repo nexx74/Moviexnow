@@ -20,82 +20,13 @@ comments: true
   <div class="container">
     <div class="row">
       <div class="col-lg-12">
-        <p class="page">{{page.category}}</p>
 
-        <div class="movie-table">
-          <table class="table">
-          <thead class="thead-default">
-            <tr>
-              <div class="table-header">
-                <th>#</th>
-                <th>Movie Name</th>
-                <th>Stream</th>
-                <th>Download</th>
-              </div>
-            </tr>
-          </thead>
-          <tbody>
-
-            <!-- First-Row -->
-            <tr>
-              <th scope="row">1</th>
-              <td><i class="fa fa-server" aria-hidden="true"></i>{{page.index}}</td>
-              <td>
-                <div class="options">
-                  <a href="{{page.server1}}"><span><i class="fa fa-steam" aria-hidden="true"></i></span> stream</a>
-                </div>
-              </td>
-              <td>
-                <div class="options">
-                  <a href="{{page.server1}}"><span><i class="fa fa-arrow-down" aria-hidden="true"></i></span> download</a>
-                </div>
-              </td>
-            </tr>
-
-          </tbody>
-          </table>
-        </div>
-
-        <div class="shows-table">
-          <table class="table">
-          <thead class="thead-default">
-            <tr>
-              <div class="table-header">
-                <th>#</th>
-                <th>Episodes</th>
-                <th>Season</th>
-                <th>Stream</th>
-                <th>Download</th>
-              </div>
-            </tr>
-          </thead>
-          <tbody>
-            {% for i in (1..{{page.index}}) %}
-            <!-- First-Row -->
-            <tr>
-              <th scope="row">{{ i }}</th>
-              <td>{{page.episode}}</td>
-              <td>{{page.season}}</td>
-              <td>
-                <div class="options">
-                   <div class="get-server">
-                      {{page.server}}
-                     <p id="myserver"></p>
-                   </div>
-                  <a href="#myserver"><span><i class="fa fa-steam" aria-hidden="true"></i></span> stream</a>
-                </div>
-              </td>
-              <td>
-                <div class="options">
-                  <a href="#myserver"><span><i class="fa fa-arrow-down" aria-hidden="true"></i></span> download</a>
-                </div>
-              </td>
-            </tr>
-            {% endfor%}
-          </tbody>
-          </table>
-        </div>
-
+        {% if page.category == "Movies" %}
+          {% include movies.html%}
+        {% else %}
+          {% include shows.html%}
+        {% endif %}
+        
       </div>
     </div>
   </div>
