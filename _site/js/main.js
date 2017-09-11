@@ -20,3 +20,16 @@ $('.owl-carousel').owlCarousel({
 
     }
 })
+
+// take video player link
+
+$player = $("source").attr("src");
+alert($player);
+
+$(".stream-options a").click(function(event) {
+  event.preventDefault();
+  $getData = $(this).attr("href");
+
+  $replaceData = $("source").attr("src","$getData");
+  alert($replaceData);
+});
