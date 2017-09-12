@@ -394,5 +394,23 @@ th {
 
   .video-js {
     height: 420px; } }
+@media (max-width: 765px) and (min-width: 576px) {
+  .nav li {
+    margin: 0; }
+
+  .nav a,
+  .nav span {
+    padding: 8px 8px; }
+
+  .navbar-toggler:focus, .navbar-toggler:hover {
+    text-decoration: none;
+    border: none;
+    outline: none; }
+
+  .top-header .image-container {
+    border-radius: 0px; }
+
+  .top-header img {
+    border-radius: 0px; } }
 
 /*# sourceMappingURL=style.css.map */
