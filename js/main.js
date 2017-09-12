@@ -22,7 +22,6 @@ $('.owl-carousel').owlCarousel({
 })
 
 //video player manipulation
-
 $(".stream-options a").click(function(event) {
   event.preventDefault();
   $getData = $(this).attr("href");

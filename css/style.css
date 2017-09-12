@@ -298,4 +298,59 @@ th {
 #ad1 {
   height: 250px; }
 
+@media (max-width: 320px) {
+  body {
+    overflow-x: scroll; }
+
+  .nav .navbar-brand img {
+    width: 50px;
+    height: 30px; }
+
+  .nav li {
+    margin: 0; }
+
+  .nav a,
+  .nav span {
+    padding: 8px 8px; }
+
+  .navbar-toggler:focus, .navbar-toggler:hover {
+    text-decoration: none;
+    border: none;
+    outline: none; }
+
+  .newsletter .top-container .sub {
+    font-size: 28px;
+    margin: 0 25px; }
+
+  .newsletter h3 {
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    word-spacing: 1px;
+    line-height: 25px;
+    font-weight: 600; }
+
+  .newsletter form .input-group {
+    margin: 20px auto;
+    width: 260px !important; }
+
+  .footer-credit .footer-container .confess p {
+    padding: 20px;
+    letter-spacing: 0.6px;
+    word-spacing: 1px;
+    font-size: 12px;
+    line-height: 25px;
+    text-align: center; }
+
+  .footer-links ul {
+    display: none; }
+
+  .copy-claim {
+    display: inline-block; }
+
+  .video-js {
+    height: 300px; }
+
+  .video-js button {
+    margin: 40% 34%; } }
+
 /*# sourceMappingURL=style.css.map */
