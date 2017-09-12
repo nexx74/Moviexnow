@@ -415,20 +415,9 @@ th {
 }
 
 
+/*Media Query*/
 
-
-
-
-
-
-
-
-
-
-// media query
-
-@media (max-width:480px) and (min-width:320px) {
-
+@media (max-width: 575px) and (min-width: 320px){
   // NAVIGATION
     .nav .navbar-brand img {
       width: 50px;
@@ -455,19 +444,7 @@ th {
       border-radius: 0px;
      }
 
-  // CONTENT CONTAINER
-
-.cards .cards-content {
-  margin: 20px 0px;
-  float: left;
-  width: 100%;
-  height:600px;
- }
- .cards img {
-  height: 500px;
-}
-
-  //  FOOTER
+//  FOOTER
    .newsletter .top-container .sub {
       font-size: 28px;
       margin: 0 25px;
@@ -479,10 +456,8 @@ th {
     line-height: 25px;
     font-weight: 600;
   }
-  .newsletter form .input-group {
-      width: 280px !important;
-     }
-     .footer-credit .footer-container .confess p {
+
+    .footer-credit .footer-container .confess p {
     padding: 20px;
     letter-spacing: 0.6px;
     word-spacing: 1px;
@@ -497,11 +472,7 @@ th {
      display: inline-block;
    }
 
-  //  VIDEO PLAYER
-   .video-js{
-     height: 300px;
-   }
-   .video-js button{
+    .video-js button{
      margin: 25% 40%;
    }
    .movie-complete-details .details #thumbnail img {
@@ -518,34 +489,30 @@ th {
    }
 }
 
+@media (max-width:480px) and (min-width:320px) {
+
+  // CONTENT CONTAINER
+.cards .cards-content {
+  margin: 20px 0px;
+  float: left;
+  width: 100%;
+  height:600px;
+ }
+ .cards img {
+  height: 500px;
+}
+  .newsletter form .input-group {
+      width: 280px !important;
+     }
+    
+  //  VIDEO PLAYER
+   .video-js{
+     height: 300px;
+   }
+}
+
  @media(max-width: 575px) and (min-width: 481px){
   
-  // NAVIGATION
-    .nav .navbar-brand img {
-      width: 50px;
-      height: 30px;
-    }
-    .nav li {
-    margin: 0;
-   }
-   .nav a,
-   .nav span{
-     padding: 8px 8px;
-   }
-   .navbar-toggler:focus, .navbar-toggler:hover{
-     text-decoration: none;
-     border: none;
-     outline: none;
-   }
-
-  //  TOP CONTAINER
-   .top-header .image-container {
-      border-radius: 0px;
-    }
-    .top-header img {
-      border-radius: 0px;
-     }
-
   // CONTENT CONTAINER
 
 .cards .cards-content {
@@ -557,55 +524,12 @@ th {
  .cards img {
   height: 700px;
 }
-
-
-  //  FOOTER
-   .newsletter .top-container .sub {
-      font-size: 28px;
-      margin: 0 25px;
-    }
-  .newsletter h3 {
-    font-size: 18px;
-    letter-spacing: 0.5px;
-    word-spacing: 1px;
-    line-height: 25px;
-    font-weight: 600;
-  }
   .newsletter form .input-group {
       width: 450px !important;
      }
-     .footer-credit .footer-container .confess p {
-    padding: 20px;
-    letter-spacing: 0.6px;
-    word-spacing: 1px;
-    font-size: 12px;
-    line-height: 25px;
-    text-align:center;
-   }
-   .footer-links ul{
-     display: none;
-   }
-   .copy-claim{
-     display: inline-block;
-   }
 
   //  VIDEO PLAYER
    .video-js{
      height: 420px;
-   }
-   .video-js button{
-     margin: 25% 40%;
-   }
-   .movie-complete-details .details #thumbnail img {
-    width: 100%;
-    height: 500px;
-    float: none;
-   }
-   .ads{
-     float: none;
-     margin: 100px auto 0px auto;
-   }
-   .text{
-     display: none;
    }
  }
