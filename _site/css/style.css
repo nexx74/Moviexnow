@@ -128,9 +128,12 @@ body {
   word-spacing: 1px;
   letter-spacing: 0.5px;
   font-weight: 400;
-  text-transform: capitalize; }
+  text-transform: capitalize;
+  width: 100%;
+  text-align: left; }
 .cards p {
   float: left;
+  text-align: left;
   font-size: 12px;
   font-family: "Poppins", sans-serif;
   color: #3498db;
@@ -298,7 +301,7 @@ th {
 #ad1 {
   height: 250px; }
 
-@media (max-width: 320px) {
+@media (max-width: 480px) and (min-width: 320px) {
   body {
     overflow-x: scroll; }
 
@@ -318,6 +321,21 @@ th {
     border: none;
     outline: none; }
 
+  .top-header .image-container {
+    border-radius: 0px; }
+
+  .top-header img {
+    border-radius: 0px; }
+
+  .cards .cards-content {
+    margin: 20px 0px;
+    float: left;
+    width: 100%;
+    height: 600px; }
+
+  .cards img {
+    height: 500px; }
+
   .newsletter .top-container .sub {
     font-size: 28px;
     margin: 0 25px; }
@@ -330,8 +348,7 @@ th {
     font-weight: 600; }
 
   .newsletter form .input-group {
-    margin: 20px auto;
-    width: 260px !important; }
+    width: 280px !important; }
 
   .footer-credit .footer-container .confess p {
     padding: 20px;
