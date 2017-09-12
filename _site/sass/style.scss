@@ -429,9 +429,6 @@ th {
 
 @media (max-width:480px) and (min-width:320px) {
 
-        body{
-          overflow-x: scroll;
-        }
   // NAVIGATION
     .nav .navbar-brand img {
       width: 50px;
@@ -522,9 +519,7 @@ th {
 }
 
  @media(max-width: 575px) and (min-width: 481px){
-    body{
-          overflow-x: scroll;
-        }
+  
   // NAVIGATION
     .nav .navbar-brand img {
       width: 50px;
