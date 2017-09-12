@@ -505,7 +505,19 @@ th {
      height: 300px;
    }
    .video-js button{
-     margin: 40% 34%;
+     margin: 25% 40%;
    }
-
+   .movie-complete-details .details #thumbnail img {
+    width: 100%;
+    height: 500px;
+    float: none;
+   }
+   .ads{
+     float: none;
+     margin: 100px auto 0px auto;
+   }
+   .stream-options,
+   .download-options > .text{
+     display: none;
+   }
 }
