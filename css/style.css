@@ -244,7 +244,10 @@ body {
 th {
   text-align: center; }
 
-.options a {
+.stream-options a:hover {
+  text-decoration: none; }
+
+.download-options a:hover {
   text-decoration: none; }
 
 .addthis_inline_share_toolbox {

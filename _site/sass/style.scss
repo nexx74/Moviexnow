@@ -329,7 +329,10 @@ p{
 th {
     text-align: center;
 }
-.options a{
+.stream-options a:hover{
+  text-decoration: none;
+}
+.download-options a:hover{
   text-decoration: none;
 }
 
@@ -418,4 +421,3 @@ th {
 #ad1{
   height: 250px;
 }
-
