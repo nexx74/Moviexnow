@@ -59,8 +59,14 @@ comments: true
               </div>
               <div class="extra-detail-container">
                 <p>Genre : {{page.genre}}</p>
+                {% if page.category == "Movies"%}
                 <p>Directors : {{page.director}}</p>
+                {% else %}
+                <p>Creator : {{page.creator}}</p>
+                {% endif %}
+                {% if page.category == "Movies" %}
                 <p>Writers : {{page.writer}}</p>
+                {% endif %}
                 <p>Stars : {{page.star}}</p>
                 <p>{{page.description}}</p>
               </div>
