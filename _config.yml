@@ -3,3 +3,5 @@ name: MoviexNow
 description: Download and Watch Movies, Tv Series, and Anime Online in HD 720p quality and a lot of 3D Entertainment content for free.
 author: MoviexNow
 permalink: pretty
+plugins: 
+  - jekyll-sitemap
