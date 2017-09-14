@@ -46,8 +46,9 @@ body{
     padding: 0px 10px;
     float:left;
     color: #2c3e50;
-    font-weight: 600;
+    font-weight: 600; 
   }
+
 }
 
   .fa-home{
@@ -260,23 +261,14 @@ p{
           padding: 0 10px;
         }
       }
-      .social-links{
-        ul{
-          list-style-type: none;
-        }
-        li{
-          font-size: 20px;
-          display: inline-block;
-          margin: 30px 20px;
-        }
-      }
       .footer-links{
         ul{
           list-style-type: none;
+          margin-right: 6px;
         }
         li{
           display: inline-block;
-          margin: 20px 30px 0px 30px;
+          margin-left: 15px;
           text-transform: capitalize;
         }
         a{
@@ -293,6 +285,27 @@ p{
         font-weight: 600;
       }
    }
+}
+
+//dmca 
+
+.dmca,
+.disclaimer{
+  margin-top: 150px;
+  h1{
+  font-family: $font;  
+  }
+   p{
+          padding: 20px;
+          letter-spacing: 0.5px;
+          word-spacing: 1px;
+          font-size: 14px;
+          line-height: 30px;
+          text-align: left;
+        }
+        span{
+          color: #2980b9;
+        }
 }
 
 // error page
@@ -467,10 +480,6 @@ th {
    .footer-links ul{
      display: none;
    }
-   .copy-claim{
-     display: inline-block;
-   }
-
     .video-js button{
      margin: 24% 40%;
    }
