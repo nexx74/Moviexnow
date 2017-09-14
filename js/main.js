@@ -1,3 +1,12 @@
+//video player manipulation
+$(".stream-options a").click(function(event) {
+  event.preventDefault();
+  $getData = $(this).attr("href");
+  document.getElementById("my-video_html5_api").src = $getData;
+  document.getElementById("my-video_html5_api").load();
+  document.getElementById("my-video_html5_api").play();
+  $("body").scrollTop(0);
+});
 
 // carousel
 $('.owl-carousel').owlCarousel({
@@ -21,12 +30,3 @@ $('.owl-carousel').owlCarousel({
     }
 })
 
-//video player manipulation
-$(".stream-options a").click(function(event) {
-  event.preventDefault();
-  $getData = $(this).attr("href");
-  document.getElementById("my-video_html5_api").src = $getData;
-  document.getElementById("my-video_html5_api").load();
-  document.getElementById("my-video_html5_api").play();
-  $("body").scrollTop(0);
-});
