@@ -8,7 +8,7 @@ thumbnail: https://images-na.ssl-images-amazon.com/images/M/MV5BMzQxMzE5NzM2NV5B
 imdb: 9.0
 genre:  Animation, Action, Comedy
 category: Anime
-trailer: 
+trailer: 2JAElThbKrI
 
 season1: 1
 
