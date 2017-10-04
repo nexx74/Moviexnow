@@ -31,5 +31,5 @@ $('.owl-carousel').owlCarousel({
 
 // form validation
 $.validate({
-    lang: 'es'
+    lang: 'en'
   });
