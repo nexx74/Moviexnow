@@ -525,9 +525,6 @@ th {
     line-height: 25px;
     text-align:center;
    }
-   .footer-links ul{
-     display: none;
-   }
     .video-js button{
      margin: 24% 40%;
    }
@@ -549,6 +546,15 @@ th {
   h1{
     margin-top:100px;
     font-family: $font;
+  }
+
+  .contact{
+    h1{
+    font-size: 50px !important;
+  }
+  .form-container{
+    width:100% !important;
+  }
   }
 }
 
@@ -575,6 +581,15 @@ th {
    .table{
     font-size: 12px;
    }
+
+   .contact{
+    h1{
+    font-size: 50px !important;
+  }
+  .form-container{
+    width:100% !important;
+  }
+  }
 }
 
  @media(max-width: 575px) and (min-width: 481px){
