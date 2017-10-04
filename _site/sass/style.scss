@@ -1,3 +1,5 @@
+// variables
+$border:1px solid black;
 
 // list of colors
 $white:#fff;
@@ -108,6 +110,7 @@ body{
       letter-spacing: 0.5px;
       word-spacing: 1px;
       font-weight: 600;
+      font-weight: bold;
      }
      .imdb,
      .genre,
@@ -115,10 +118,11 @@ body{
        font-size: 14px;
      }
      .description{
-       font-size: 15px;
-       list-style: 0.3px;
+       font-size: 12px;
+       letter-spacing: 0.5px;
        word-spacing: 1px;
        padding: 8px;
+       line-height: 18px;
      }
     }
   }
@@ -327,7 +331,7 @@ p{
       width: 100%;
     }
     .video-js button{
-    margin: 24% 46%;
+    margin: 20% 45%;
     }
     .vjs-modal-dialog .vjs-modal-dialog-content{
         padding: 80px 24px;
@@ -410,6 +414,52 @@ th {
       }
 
 }
+
+
+// contact page
+.contact{
+  background-color:#f7f7f7;
+  .top-image{
+    width:100%;
+    height: 500px;
+    background-image:url("../assets/contact.jpeg");
+    background-size:cover;
+    background-position:center;
+    background-attachment:fixed;
+    background-repeat:no-repeat;
+  }
+  h1{
+    position:absolute;
+    top:40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-weight: bold;
+    font-size: 90px;
+    letter-spacing: 0.5px;
+    word-spacing: 1px;
+    color:#fff;
+  }
+  .form-container{
+    width:50%;
+    margin:80px auto;
+  }
+  form{
+
+    input{
+      font-size: 15px;
+    }
+
+    span{
+      width: 40px;
+    }
+    textarea{
+      font-size: 14px;
+      letter-spacing: 0.3px;
+    }
+  }
+}
+
+
 
 //  Advertisement
 
