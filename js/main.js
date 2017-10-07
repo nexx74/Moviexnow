@@ -5,7 +5,7 @@ $(".stream-options a").click(function(event) {
   document.getElementById("my-video_html5_api").src = $getData;
   document.getElementById("my-video_html5_api").load();
   document.getElementById("my-video_html5_api").play();
-  $("body").scrollTop(0);
+  $(window).scrollTop(0);
 });
 
 // carousel
