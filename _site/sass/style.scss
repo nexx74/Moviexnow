@@ -212,7 +212,7 @@ body{
   margin-bottom: 30px;
   .sub{
    font-size: 38px;
-   margin: 0 50px;
+   margin: 0 40px;
  }
  .plus{
    font-size: 10px;
@@ -229,9 +229,6 @@ p{
   letter-spacing: 0.5px;
   word-spacing: 1px;
 }
-.input-group{
-    box-shadow: 1px 11px 20px 0px #000;
-}
   form{
     margin: 0 auto;
     text-align: center;
@@ -243,7 +240,14 @@ p{
         border: none;
       }
     }
+    .fa{
+      width: 50px !important;
+    }
   }
+}
+
+.newsletter form .input-group input, .newsletter form .input-group button{
+  height: 40px !important;
 }
 
 .footer-credit{

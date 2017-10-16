@@ -163,7 +163,7 @@ body {
     margin-bottom: 30px; }
     .newsletter .top-container .sub {
       font-size: 38px;
-      margin: 0 50px; }
+      margin: 0 40px; }
     .newsletter .top-container .plus {
       font-size: 10px;
       position: relative;
@@ -175,8 +175,6 @@ body {
   .newsletter p {
     letter-spacing: 0.5px;
     word-spacing: 1px; }
-  .newsletter .input-group {
-    box-shadow: 1px 11px 20px 0px #000; }
   .newsletter form {
     margin: 0 auto;
     text-align: center; }
@@ -186,6 +184,11 @@ body {
       .newsletter form .input-group input,
       .newsletter form .input-group button {
         border: none; }
+    .newsletter form .fa {
+      width: 50px !important; }
+
+.newsletter form .input-group input, .newsletter form .input-group button {
+  height: 40px !important; }
 
 .footer-credit {
   margin-top: 50px; }
