@@ -29,6 +29,31 @@ body {
     color: #2c3e50;
     font-weight: 600; }
 
+#search {
+  cursor: pointer;
+  float: left;
+  transition: all 1s ease; }
+
+#search-container input {
+  width: 210px;
+  padding: 0 6px;
+  border: none;
+  outline: none;
+  display: none; }
+#search-container #results-container {
+  position: absolute;
+  top: 56px;
+  padding: 10px 0px;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #fff; }
+  #search-container #results-container li {
+    list-style-type: none;
+    margin: 0; }
+  #search-container #results-container a {
+    text-decoration: none;
+    text-align: left;
+    color: #fff; }
+
 .fa-home {
   color: #2529d8; }
 
@@ -369,6 +394,12 @@ th {
     text-decoration: none;
     border: none;
     outline: none; }
+
+  #results-container {
+    position: absolute;
+    width: 100%;
+    top: 320px !important;
+    left: 0; }
 
   .top-header .image-container {
     border-radius: 0px; }
