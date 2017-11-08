@@ -2,158 +2,141 @@
 layout: default
 comments: true
 ---
-
-  <!--my video-player-->
-
-  <video id="my-video" class="video-js" controls preload="auto" width="auto" height="650" 
-   poster="{{page.thumbnail}}" data-setup={}>
-     <source src="{{page.server1}}" type='video/mp4'>
-      <source src="{{page.server1}}" type='video/webm'>
-        If video doesnt play than please use Google Chrome Browser.
-      <p class="vjs-no-js">
-       To view this video please enable JavaScript, and consider upgrading to a web browser that support HTML5 video Player
-     </p>
-   </video>
-
-
+<!--my video-player-->
+<video id="my-video" class="video-js" controls preload="auto" width="auto" height="650"
+  poster="{{page.thumbnail}}" data-setup={}>
+  <source src="{{page.server1}}" type='video/mp4'>
+  <source src="{{page.server1}}" type='video/webm'>
+  If video doesnt play than please use Google Chrome Browser.
+  <p class="vjs-no-js">
+    To view this video please enable JavaScript, and consider upgrading to a web browser that support HTML5 video Player
+  </p>
+</video>
 <div class="download-container">
   <div class="container">
     <div class="row">
       <div class="col-lg-12 col-md-12 col-sm-6 col-xs-3">
         <div class="table-container">
-        {% if page.category == "Movies" %}
-          {% include movies.html%}
-        {% else %}
-          {% include shows.html%}
-        {% endif %}
-       </div>
+          {% if page.category == "Movies" %}
+            {% include movies.html%}
+          {% else %}
+            {% include shows.html%}
+          {% endif %}
+        </div>
       </div>
     </div>
   </div>
 </div>
-
-
 <!--share button-->
 <div class="share-buttons">
-    <div class="addthis_inline_share_toolbox"></div>
+  <div class="addthis_inline_share_toolbox"></div>
 </div>
-
 <!--movie-detail container & stream option container-->
 <div class="movie-complete-details">
   <div class="container-fluid">
     <div class="row">
       <div class="col-lg-8">
-
         <!--container-1-->
-            <div class="details">
-           <div class="row">
-             <div class="col-lg-4">
+        <div class="details">
+          <div class="row">
+            <div class="col-lg-4">
               <div id="thumbnail">
                 <img class="img-thumbnail" src="{{page.thumbnail}}" alt="{{post.title}}">
               </div>
-             </div>
-             <div class="col-lg-8">
-               <h1>{{page.title}}</h1>
+            </div>
+            <div class="col-lg-8">
+              <h1>{{page.title}}</h1>
               <div class="star">
                 <p><span><i class="fa fa-star" aria-hidden="true"></i></span> {{page.imdb}}/10 | {{page.duration}}</p>
               </div>
               <div class="extra-detail-container">
                 <p>Genre : {{page.genre}}</p>
                 {% if page.category == "Movies"%}
-                <p>Directors : {{page.director}}</p>
+                  <p>Directors : {{page.director}}</p>
                 {% else %}
-                <p>Creator : {{page.creator}}</p>
+                  <p>Creator : {{page.creator}}</p>
                 {% endif %}
                 {% if page.category == "Movies" %}
-                <p>Writers : {{page.writer}}</p>
+                  <p>Writers : {{page.writer}}</p>
                 {% endif %}
                 <p>Stars : {{page.star}}</p>
                 <p>{{page.description}}</p>
               </div>
-             </div>
-           </div>
-
-           <!--Synopsis-->
-            <div class="row">
-              <div class="col-lg-12">
-                <div class="synopsis">
-                  <h2>Synopsis</h2>
-                  <p>{{content}}</p>
-                </div>
+            </div>
+          </div>
+          <!--Synopsis-->
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="synopsis">
+                <h2>Synopsis</h2>
+                <p>{{content}}</p>
               </div>
             </div>
-
-            <!--Trailer-->
-            <div class="trailer">
-           <iframe width="100%" height="430" src="https://www.youtube.com/embed/{{page.trailer}}?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
           </div>
-
-      <!--commment box-->
+          <!--Trailer-->
+          <div class="trailer">
+            <iframe width="100%" height="430" src="https://www.youtube.com/embed/{{page.trailer}}?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+          </div>
+          <!--commment box-->
           <div class="comment-box">
-          <div id="disqus_thread"></div>
-          <script>
-          (function() {
-          var d = document, s = d.createElement('script');
-          s.src = 'https://http-moviexnow-com.disqus.com/embed.js';
-          s.setAttribute('data-timestamp', +new Date());
-          (d.head || d.body).appendChild(s);
-          })();
-          </script>
-          <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+            <div id="disqus_thread"></div>
+            <script>
+            (function() {
+            var d = document, s = d.createElement('script');
+            s.src = 'https://http-moviexnow-com.disqus.com/embed.js';
+            s.setAttribute('data-timestamp', +new Date());
+            (d.head || d.body).appendChild(s);
+            })();
+            </script>
+            <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
           </div>
-          </div>
-         </div>
-
+        </div>
+      </div>
       <!--Advertisement Area-->
       <div class="col-lg-4">
-
-         <!-- container-2 -->
+        <!-- container-2 -->
         <div class="ads" id="ad0">
-         <a href="https://affiliates.getresponse.com/material/hit/221/anand2050">
-         <img src="https://affiliates.getresponse.com/material/view/221/anand2050" />
-         </a>
+          <a href="https://affiliates.getresponse.com/material/hit/221/anand2050">
+            <img src="https://affiliates.getresponse.com/material/view/221/anand2050" />
+          </a>
         </div>
-
         <div class="ads" id="ad1">
           <a href="http://www.socialpilot.co?refer=IBHD2XMS"  title="Socialpilot" target="_blank"><img src="http://affiliate.socialpilot.co/themes/socialpilot/assets/img/affiliate/socialpilot_300x250.png" alt="banner" title="social banner"/>
           </a>
         </div>
-
         <div class="ads" id="ad2">
-        <a href="//www.semrush.com/sem/?ref=0277578085&refer_source=&utm_source=berush&utm_medium=promo&utm_campaign=banner" title="SEMrush" target="_blank"><img src="//www.berush.com/static/berush/banners/orange/300x600/300x600_en.png" alt="SEMrush" /></a>
+          <a href="//www.semrush.com/sem/?ref=0277578085&refer_source=&utm_source=berush&utm_medium=promo&utm_campaign=banner" title="SEMrush" target="_blank"><img src="//www.berush.com/static/berush/banners/orange/300x600/300x600_en.png" alt="SEMrush" /></a>
         </div>
-    </div>
-  </div>
-</div>
-
-
-<!-- Related Posts -->
-      
-<div class="category-title">
-  <div class="row">
-    <div class="col-lg-12">
-      <h3>Related {{page.category}}</h3>
-    </div>
-  </div>
-</div>
-<div class="cards">
-<div class="container-fluid">
-  <div class="row">
-    <div class="col-lg-12">
-      {% for post in site.related_posts limit:5 %}
-      <div class="cards-content">
-        <figure>
-          <span>{{post.imdb}}</span>
-          <a href="{{post.url}}"><img src="{{post.thumbnail}}" alt="{{post.title}}"></a>
-        </figure>
-          <figcaption>
-          <h4>{{post.title}}</h4>
-          <br>
-          <p>{{post.genre}}</p>
-          </figcaption>
       </div>
-     {% endfor %}
     </div>
   </div>
-</div>
-</div>
+  <!-- Related Posts -->
+  
+  <div class="category-title">
+    <div class="row">
+      <div class="col-lg-12">
+        <h3>Related {{page.category}}</h3>
+      </div>
+    </div>
+  </div>
+  <div class="cards">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-12">
+          {% for post in site.related_posts limit:5 %}
+            <div class="cards-content">
+              <figure>
+                <span>{{post.imdb}}</span>
+                <a href="{{post.url}}"><img src="{{post.thumbnail}}" alt="{{post.title}}"></a>
+              </figure>
+              <figcaption>
+              <h4>{{post.title}}</h4>
+              <br>
+              <p>{{post.genre}}</p>
+              </figcaption>
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>

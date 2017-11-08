@@ -1,5 +1,4 @@
-
-  <table class="table">
+<table class="table">
   <thead class="thead-default">
     <tr>
       <div class="table-header">
@@ -12,270 +11,221 @@
     </tr>
   </thead>
   <tbody>
-
-
     <!-- First-Row -->
-      {% if page.index1 == 1 %}
-
-    <tr>
-      <th scope="row">{{page.index1}}</th>
-      <td>{{page.episode1}}</td>
-      <td>{{page.season1}}</td>
-      <td>
-        <div class="stream-options">
-          <a href="{{page.server1}}"><span><i class="fa fa-steam" aria-hidden="true"></i></span> <span class="text">stream</span></a>
-        </div>
-      </td>
-      <td>
-        <div class="download-options">
-          <a href="{{page.server1}}"><span><i class="fa fa-arrow-down" aria-hidden="true"></i></span><span class="text"> download</span></a>
-        </div>
-      </td>
-    </tr>
-
+    {% if page.index1 == 1 %}
+      <tr>
+        <th scope="row">{{page.index1}}</th>
+        <td>{{page.episode1}}</td>
+        <td>{{page.season1}}</td>
+        <td>
+          <div class="stream-options">
+            <a href="{{page.server1}}"><span><i class="fa fa-steam" aria-hidden="true"></i></span> <span class="text">stream</span></a>
+          </div>
+        </td>
+        <td>
+          <div class="download-options">
+            <a href="{{page.server1}}"><span><i class="fa fa-arrow-down" aria-hidden="true"></i></span><span class="text"> download</span></a>
+          </div>
+        </td>
+      </tr>
     {% endif %}
-
-
     <!-- Second-Row -->
-      {% if page.index2 == 2 %}
-
-    <tr>
-      <th scope="row">{{page.index2}}</th>
-      <td>{{page.episode2}}</td>
-      <td>{{page.season1}}</td>
-      <td>
-        <div class="stream-options">
-          <a href="{{page.server2}}"><span><i class="fa fa-steam" aria-hidden="true"></i></span><span class="text"> stream</span></a>
-        </div>
-      </td>
-      <td>
-        <div class="download-options">
-          <a href="{{page.server2}}"><span><i class="fa fa-arrow-down" aria-hidden="true"></i></span> <span class="text">download</span></a>
-        </div>
-      </td>
-    </tr>
-
+    {% if page.index2 == 2 %}
+      <tr>
+        <th scope="row">{{page.index2}}</th>
+        <td>{{page.episode2}}</td>
+        <td>{{page.season1}}</td>
+        <td>
+          <div class="stream-options">
+            <a href="{{page.server2}}"><span><i class="fa fa-steam" aria-hidden="true"></i></span><span class="text"> stream</span></a>
+          </div>
+        </td>
+        <td>
+          <div class="download-options">
+            <a href="{{page.server2}}"><span><i class="fa fa-arrow-down" aria-hidden="true"></i></span> <span class="text">download</span></a>
+          </div>
+        </td>
+      </tr>
     {% endif %}
-
-
     <!-- Third-Row -->
-      {% if page.index3 == 3 %}
-
-    <tr>
-      <th scope="row">{{page.index3}}</th>
-      <td>{{page.episode3}}</td>
-      <td>{{page.season1}}</td>
-      <td>
-        <div class="stream-options">
-          <a href="{{page.server3}}"><span><i class="fa fa-steam" aria-hidden="true"></i></span> <span class="text">stream</span></a>
-        </div>
-      </td>
-      <td>
-        <div class="download-options">
-          <a href="{{page.server3}}"><span><i class="fa fa-arrow-down" aria-hidden="true"></i></span> <span class="text">download</span></a>
-        </div>
-      </td>
-    </tr>
-
+    {% if page.index3 == 3 %}
+      <tr>
+        <th scope="row">{{page.index3}}</th>
+        <td>{{page.episode3}}</td>
+        <td>{{page.season1}}</td>
+        <td>
+          <div class="stream-options">
+            <a href="{{page.server3}}"><span><i class="fa fa-steam" aria-hidden="true"></i></span> <span class="text">stream</span></a>
+          </div>
+        </td>
+        <td>
+          <div class="download-options">
+            <a href="{{page.server3}}"><span><i class="fa fa-arrow-down" aria-hidden="true"></i></span> <span class="text">download</span></a>
+          </div>
+        </td>
+      </tr>
     {% endif %}
-
-
     <!-- Fourth-Row -->
-      {% if page.index4 == 4 %}
-
-    <tr>
-      <th scope="row">{{page.index4}}</th>
-      <td>{{page.episode4}}</td>
-      <td>{{page.season1}}</td>
-      <td>
-        <div class="stream-options">
-          <a href="{{page.server4}}"><span><i class="fa fa-steam" aria-hidden="true"></i></span> <span class="text">stream</span></a>
-        </div>
-      </td>
-      <td>
-        <div class="download-options">
-          <a href="{{page.server4}}"><span><i class="fa fa-arrow-down" aria-hidden="true"></i></span> <span class="text">download</span></a>
-        </div>
-      </td>
-    </tr>
-
+    {% if page.index4 == 4 %}
+      <tr>
+        <th scope="row">{{page.index4}}</th>
+        <td>{{page.episode4}}</td>
+        <td>{{page.season1}}</td>
+        <td>
+          <div class="stream-options">
+            <a href="{{page.server4}}"><span><i class="fa fa-steam" aria-hidden="true"></i></span> <span class="text">stream</span></a>
+          </div>
+        </td>
+        <td>
+          <div class="download-options">
+            <a href="{{page.server4}}"><span><i class="fa fa-arrow-down" aria-hidden="true"></i></span> <span class="text">download</span></a>
+          </div>
+        </td>
+      </tr>
     {% endif %}
-
-
     <!-- Fifth-Row -->
-      {% if page.index5 == 5 %}
-
-    <tr>
-      <th scope="row">{{page.index5}}</th>
-      <td>{{page.episode5}}</td>
-      <td>{{page.season1}}</td>
-      <td>
-        <div class="stream-options">
-          <a href="{{page.server5}}"><span><i class="fa fa-steam" aria-hidden="true"></i></span><span class="text"> stream</span></a>
-        </div>
-      </td>
-      <td>
-        <div class="download-options">
-          <a href="{{page.server5}}"><span><i class="fa fa-arrow-down" aria-hidden="true"></i></span><span class="text"> download</span></a>
-        </div>
-      </td>
-    </tr>
-
+    {% if page.index5 == 5 %}
+      <tr>
+        <th scope="row">{{page.index5}}</th>
+        <td>{{page.episode5}}</td>
+        <td>{{page.season1}}</td>
+        <td>
+          <div class="stream-options">
+            <a href="{{page.server5}}"><span><i class="fa fa-steam" aria-hidden="true"></i></span><span class="text"> stream</span></a>
+          </div>
+        </td>
+        <td>
+          <div class="download-options">
+            <a href="{{page.server5}}"><span><i class="fa fa-arrow-down" aria-hidden="true"></i></span><span class="text"> download</span></a>
+          </div>
+        </td>
+      </tr>
     {% endif %}
-
-
-     <!-- sixth-Row -->
-      {% if page.index6 == 6 %}
-
-    <tr>
-      <th scope="row">{{page.index6}}</th>
-      <td>{{page.episode6}}</td>
-      <td>{{page.season1}}</td>
-      <td>
-        <div class="stream-options">
-          <a href="{{page.server6}}"><span><i class="fa fa-steam" aria-hidden="true"></i></span><span class="text"> stream</span></a>
-        </div>
-      </td>
-      <td>
-        <div class="download-options">
-          <a href="{{page.server6}}"><span><i class="fa fa-arrow-down" aria-hidden="true"></i></span><span class="text"> download</span></a>
-        </div>
-      </td>
-    </tr>
-
+    <!-- sixth-Row -->
+    {% if page.index6 == 6 %}
+      <tr>
+        <th scope="row">{{page.index6}}</th>
+        <td>{{page.episode6}}</td>
+        <td>{{page.season1}}</td>
+        <td>
+          <div class="stream-options">
+            <a href="{{page.server6}}"><span><i class="fa fa-steam" aria-hidden="true"></i></span><span class="text"> stream</span></a>
+          </div>
+        </td>
+        <td>
+          <div class="download-options">
+            <a href="{{page.server6}}"><span><i class="fa fa-arrow-down" aria-hidden="true"></i></span><span class="text"> download</span></a>
+          </div>
+        </td>
+      </tr>
     {% endif %}
-
-
-     <!-- seventh-Row -->
-      {% if page.index7 == 7 %}
-
-    <tr>
-      <th scope="row">{{page.index7}}</th>
-      <td>{{page.episode7}}</td>
-      <td>{{page.season1}}</td>
-      <td>
-        <div class="stream-options">
-          <a href="{{page.server7}}"><span><i class="fa fa-steam" aria-hidden="true"></i></span><span class="text"> stream</span></a>
-        </div>
-      </td>
-      <td>
-        <div class="download-options">
-          <a href="{{page.server7}}"><span><i class="fa fa-arrow-down" aria-hidden="true"></i></span><span class="text"> download</span></a>
-        </div>
-      </td>
-    </tr>
-
+    <!-- seventh-Row -->
+    {% if page.index7 == 7 %}
+      <tr>
+        <th scope="row">{{page.index7}}</th>
+        <td>{{page.episode7}}</td>
+        <td>{{page.season1}}</td>
+        <td>
+          <div class="stream-options">
+            <a href="{{page.server7}}"><span><i class="fa fa-steam" aria-hidden="true"></i></span><span class="text"> stream</span></a>
+          </div>
+        </td>
+        <td>
+          <div class="download-options">
+            <a href="{{page.server7}}"><span><i class="fa fa-arrow-down" aria-hidden="true"></i></span><span class="text"> download</span></a>
+          </div>
+        </td>
+      </tr>
     {% endif %}
-
-
-     <!-- Eighth-Row -->
-      {% if page.index8 == 8 %}
-
-    <tr>
-      <th scope="row">{{page.index8}}</th>
-      <td>{{page.episode8}}</td>
-      <td>{{page.season1}}</td>
-      <td>
-        <div class="stream-options">
-          <a href="{{page.server8}}"><span><i class="fa fa-steam" aria-hidden="true"></i></span><span class="text"> stream</span></a>
-        </div>
-      </td>
-      <td>
-        <div class="download-options">
-          <a href="{{page.server8}}"><span><i class="fa fa-arrow-down" aria-hidden="true"></i></span><span class="text"> download</span></a>
-        </div>
-      </td>
-    </tr>
-
+    <!-- Eighth-Row -->
+    {% if page.index8 == 8 %}
+      <tr>
+        <th scope="row">{{page.index8}}</th>
+        <td>{{page.episode8}}</td>
+        <td>{{page.season1}}</td>
+        <td>
+          <div class="stream-options">
+            <a href="{{page.server8}}"><span><i class="fa fa-steam" aria-hidden="true"></i></span><span class="text"> stream</span></a>
+          </div>
+        </td>
+        <td>
+          <div class="download-options">
+            <a href="{{page.server8}}"><span><i class="fa fa-arrow-down" aria-hidden="true"></i></span><span class="text"> download</span></a>
+          </div>
+        </td>
+      </tr>
     {% endif %}
-
-
-     <!-- Ninth-Row -->
-      {% if page.index9 == 9 %}
-
-    <tr>
-      <th scope="row">{{page.index9}}</th>
-      <td>{{page.episode9}}</td>
-      <td>{{page.season1}}</td>
-      <td>
-        <div class="stream-options">
-          <a href="{{page.server9}}"><span><i class="fa fa-steam" aria-hidden="true"></i></span><span class="text"> stream</span></a>
-        </div>
-      </td>
-      <td>
-        <div class="download-options">
-          <a href="{{page.server9}}"><span><i class="fa fa-arrow-down" aria-hidden="true"></i></span><span class="text"> download</span></a>
-        </div>
-      </td>
-    </tr>
-
+    <!-- Ninth-Row -->
+    {% if page.index9 == 9 %}
+      <tr>
+        <th scope="row">{{page.index9}}</th>
+        <td>{{page.episode9}}</td>
+        <td>{{page.season1}}</td>
+        <td>
+          <div class="stream-options">
+            <a href="{{page.server9}}"><span><i class="fa fa-steam" aria-hidden="true"></i></span><span class="text"> stream</span></a>
+          </div>
+        </td>
+        <td>
+          <div class="download-options">
+            <a href="{{page.server9}}"><span><i class="fa fa-arrow-down" aria-hidden="true"></i></span><span class="text"> download</span></a>
+          </div>
+        </td>
+      </tr>
     {% endif %}
-
-
-     <!-- Tenth-Row -->
-      {% if page.index10 == 10 %}
-
-    <tr>
-      <th scope="row">{{page.index10}}</th>
-      <td>{{page.episode10}}</td>
-      <td>{{page.season1}}</td>
-      <td>
-        <div class="stream-options">
-          <a href="{{page.server10}}"><span><i class="fa fa-steam" aria-hidden="true"></i></span><span class="text"> stream</span></a>
-        </div>
-      </td>
-      <td>
-        <div class="download-options">
-          <a href="{{page.server10}}"><span><i class="fa fa-arrow-down" aria-hidden="true"></i></span><span class="text"> download</span></a>
-        </div>
-      </td>
-    </tr>
-
+    <!-- Tenth-Row -->
+    {% if page.index10 == 10 %}
+      <tr>
+        <th scope="row">{{page.index10}}</th>
+        <td>{{page.episode10}}</td>
+        <td>{{page.season1}}</td>
+        <td>
+          <div class="stream-options">
+            <a href="{{page.server10}}"><span><i class="fa fa-steam" aria-hidden="true"></i></span><span class="text"> stream</span></a>
+          </div>
+        </td>
+        <td>
+          <div class="download-options">
+            <a href="{{page.server10}}"><span><i class="fa fa-arrow-down" aria-hidden="true"></i></span><span class="text"> download</span></a>
+          </div>
+        </td>
+      </tr>
     {% endif %}
-
-
-     <!-- Evenlenth-Row -->
-      {% if page.index11 == 11 %}
-
-    <tr>
-      <th scope="row">{{page.index11}}</th>
-      <td>{{page.episode11}}</td>
-      <td>{{page.season1}}</td>
-      <td>
-        <div class="stream-options">
-          <a href="{{page.server11}}"><span><i class="fa fa-steam" aria-hidden="true"></i></span><span class="text"> stream</span></a>
-        </div>
-      </td>
-      <td>
-        <div class="download-options">
-          <a href="{{page.server11}}"><span><i class="fa fa-arrow-down" aria-hidden="true"></i></span><span class="text"> download</span></a>
-        </div>
-      </td>
-    </tr>
-
+    <!-- Evenlenth-Row -->
+    {% if page.index11 == 11 %}
+      <tr>
+        <th scope="row">{{page.index11}}</th>
+        <td>{{page.episode11}}</td>
+        <td>{{page.season1}}</td>
+        <td>
+          <div class="stream-options">
+            <a href="{{page.server11}}"><span><i class="fa fa-steam" aria-hidden="true"></i></span><span class="text"> stream</span></a>
+          </div>
+        </td>
+        <td>
+          <div class="download-options">
+            <a href="{{page.server11}}"><span><i class="fa fa-arrow-down" aria-hidden="true"></i></span><span class="text"> download</span></a>
+          </div>
+        </td>
+      </tr>
     {% endif %}
-
-
-     <!-- Tweleth-Row -->
-      {% if page.index12 == 12 %}
-
-    <tr>
-      <th scope="row">{{page.index12}}</th>
-      <td>{{page.episode12}}</td>
-      <td>{{page.season1}}</td>
-      <td>
-        <div class="stream-options">
-          <a href="{{page.server12}}"><span><i class="fa fa-steam" aria-hidden="true"></i></span><span class="text"> stream</span></a>
-        </div>
-      </td>
-      <td>
-        <div class="download-options">
-          <a href="{{page.server12}}"><span><i class="fa fa-arrow-down" aria-hidden="true"></i></span><span class="text"> download</span></a>
-        </div>
-      </td>
-    </tr>
-
+    <!-- Tweleth-Row -->
+    {% if page.index12 == 12 %}
+      <tr>
+        <th scope="row">{{page.index12}}</th>
+        <td>{{page.episode12}}</td>
+        <td>{{page.season1}}</td>
+        <td>
+          <div class="stream-options">
+            <a href="{{page.server12}}"><span><i class="fa fa-steam" aria-hidden="true"></i></span><span class="text"> stream</span></a>
+          </div>
+        </td>
+        <td>
+          <div class="download-options">
+            <a href="{{page.server12}}"><span><i class="fa fa-arrow-down" aria-hidden="true"></i></span><span class="text"> download</span></a>
+          </div>
+        </td>
+      </tr>
     {% endif %}
-
   </tbody>
-  </table>
+</table>
