@@ -9,7 +9,7 @@ description: watch and download movies, tv-series and anime in singl click in HD
     {% for post in site.posts limit:10%}
       <div class="image-container">
         <img src="{{post.thumbnail}}" alt="{{post.title}}">
-        <a href="{{post.url}}"><div class="movie-details">
+        <a href="{{site.baseurl}}/{{post.url}}"><div class="movie-details">
           <div class="detail-list">
             <h1 class="title">{{post.title}}</h1>
             <p class="imdb">IMDB : {{post.imdb}}/10</p>
@@ -38,7 +38,7 @@ description: watch and download movies, tv-series and anime in singl click in HD
         <div class="cards-content">
           <figure>
             <span>{{post.imdb}}</span>
-            <a href="{{post.url}}"><img src="{{post.thumbnail}}" alt="{{post.title}}"></a>
+            <a href="{{site.baseurl}}/{{post.url}}"><img src="{{post.thumbnail}}" alt="{{post.title}}"></a>
           </figure>
           <figcaption>
           <h4>{{post.title}}</h4>
@@ -70,7 +70,7 @@ description: watch and download movies, tv-series and anime in singl click in HD
         <div class="cards-content">
           <figure>
             <span>{{post.imdb}}</span>
-            <a href="{{post.url}}"><img src="{{post.thumbnail}}" alt="{{post.title}}"></a>
+            <a href="{{site.baseurl}}/{{post.url}}"><img src="{{post.thumbnail}}" alt="{{post.title}}"></a>
           </figure>
           <figcaption>
           <h4>{{post.title}}</h4>
