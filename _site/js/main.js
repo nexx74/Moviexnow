@@ -45,5 +45,5 @@ $('#search').click(function() {
 SimpleJekyllSearch({
     searchInput: document.getElementById('search-input'),
     resultsContainer: document.getElementById('results-container'),
-    json: '/search.json'
+    json: 'search.json'
 })
